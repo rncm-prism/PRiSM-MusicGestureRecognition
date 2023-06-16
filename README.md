@@ -60,7 +60,7 @@ Click the `Activate` button to preprocess the data.
 ### Fine-tuning
 
 Click the `Setting` button to open the setting window where you can find adjustable parameters. \
-** will add parameter descriptions here later **
+**will add parameter descriptions here later**
 
 ### OSC setting
 
