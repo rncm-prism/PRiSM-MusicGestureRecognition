@@ -27,17 +27,47 @@ PRiSM Music Gesture Recognition is a software tool for creating musical gesture 
 
 -----------
 
-## Usage#
+## Usage
 
 ### Audio Setting
 Click the `AudioStatu` button to open the [Audio Setting window](media/AudioSetting.png)
 
-### Create and record gesture samples
-1. Click the `SelectFolder` button to select a folder to store all the recordings.
-2. Click the `Create` button to pop up a window to enter the new gesture name.
-3. Use the `Record` button to start/stop recording the sample.
-4. Click the `Save` button to save the recording to the selected folder.
-5. Repeat steps 3 and 4 to record more samples for the current gesture.
+**Make sure to always use the same sampling rate for consistent results!**
 
+### Create and record gesture samples
+1. Click the `SelectFolder` button to choose a folder to store all the recordings.
+2. Click the `Create` button to enter the name of the new gesture.
+3. Use the `Record` button to start and stop recording the sample.
+4. Click the `Save` button to save the recording to the selected folder.
+5. Repeat steps 3 and 4 to record additional samples for the current gesture.
+
+Note: You can use the `dropdown menu` to select a saved sample and the `Play` button to listen to it.
+
+### Data Preparation
+
+Click the `Activate` button to preprocess the data.
+
+### Training 
+
+1. After Data Preparation is finished, click the `Train` button to start the training process.
+2. The area below will display the training loss. Wait for it to reach a satisfactory level (lower is generally better).
+3. Click the `Train` button again to stop the training.
+4. Click the `Prediction` button to enable real-time gesture recognition.
+5. You can also use the `dropdown menu` and `Play` button to test the trained model with saved samples.
+6. Click the `Save` button to save the trained model to disk.
+
+### Fine-tuning
+
+Click the `Setting` button to open the setting window where you can find adjustable parameters. 
+
+### OSC setting
+
+Click the `OSC` button to enable OSC output and open the [OSC setting window](media/OSCSetting) to configure the OSC IP address and port.
+By default, the recognition results are sent to `127.0.0.1:9001` with the message address `/PRiSM_GR`.
+
+### MIDI setting
+
+Click the `MIDI` button to enable MIDI output and open the [MIDI setting window](meida/MidiSetting) to configure the MIDI output.
+The recognition results are automatically mapped to MIDI notes starting from MIDI note `60`. For example, the first gesture corresponds to MIDI note `60`, the second gesture to MIDI note `61`, and so on.
 
 -----------
