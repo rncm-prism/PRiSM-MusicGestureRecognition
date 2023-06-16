@@ -26,3 +26,17 @@ PRiSM Music Gesture Recognition is a software tool for creating musical gesture 
 4. Launch the PRiSM Music Gesture Recognition application.
 
 -----------
+
+## Usage#
+
+### Audio Statu
+
+### Create and record gesture samples
+1. Click the `SelectFolder` button to select a folder to store all the recordings.
+2. Click the `Create` button to pop up a window to enter the new gesture name.
+3. Use the `Record` button to start/stop recording the sample.
+4. Click the `Save` button to save the recording to the selected folder.
+5. Repeat steps 3 and 4 to record more samples for the current gesture.
+
+
+-----------
