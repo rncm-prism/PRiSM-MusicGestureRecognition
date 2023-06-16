@@ -83,3 +83,7 @@ Contributions to the PRiSM Music Gesture Recognition project are welcome! If you
 PRiSM Music Gesture Recognition is licensed under the [MIT License](LICENSE). You are free to use, modify, and distribute the software in accordance with the terms of the license.
 
 -----------
+
+## Credits
+
+![About](media/About.png)
