@@ -62,12 +62,24 @@ Click the `Setting` button to open the setting window where you can find adjusta
 
 ### OSC setting
 
-Click the `OSC` button to enable OSC output and open the [OSC setting window](media/OSCSetting) to configure the OSC IP address and port.
+Click the `OSC` button to enable OSC output and open the [OSC setting window](media/OSC_Setting) to configure the OSC IP address and port.
 By default, the recognition results are sent to `127.0.0.1:9001` with the message address `/PRiSM_GR`.
 
 ### MIDI setting
 
 Click the `MIDI` button to enable MIDI output and open the [MIDI setting window](meida/MidiSetting) to configure the MIDI output.
 The recognition results are automatically mapped to MIDI notes starting from MIDI note `60`. For example, the first gesture corresponds to MIDI note `60`, the second gesture to MIDI note `61`, and so on.
+
+-----------
+
+## Contributing
+
+Contributions to the PRiSM Music Gesture Recognition project are welcome! If you encounter any issues or have ideas for improvements, please submit them as GitHub issues or create a pull request with your proposed changes.
+
+-----------
+
+## License
+
+PRiSM Music Gesture Recognition is licensed under the [MIT License](LICENSE). You are free to use, modify, and distribute the software in accordance with the terms of the license.
 
 -----------
