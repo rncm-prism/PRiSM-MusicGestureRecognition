@@ -1,4 +1,4 @@
-# PRiSM_MusicGestureRecognition
+# [PRiSM_MusicGestureRecognition](https://github.com/rncm-prism/PRiSM-MusicGestureRecognition.git)
  
 PRiSM Music Gesture Recognition is a software tool for creating musical gesture datasets and real-time recognition of musical gestures based on audio input. It utilizes machine learning techniques to classify and interpret musical gestures, enabling applications in interactive music performance, composition, and more.
 
@@ -21,7 +21,7 @@ PRiSM Music Gesture Recognition is a software tool for creating musical gesture 
 ## Installation
 
 1. Go to the GitHub release page of the PRiSM Music Gesture Recognition project.
-2. Download the latest version of the software package for your operating system. (**Mac only currently**, if more people require the Windows version we can arrange it later.)
+2. Download the latest version of the software package for your operating system. (**macOSX only currently**, if more people require the Windows version we can arrange it later.)
 3. Copy the PRiSM Music Gesture Recognition app to your application folder.
 4. Launch the PRiSM Music Gesture Recognition application.
 
@@ -83,3 +83,13 @@ Contributions to the PRiSM Music Gesture Recognition project are welcome! If you
 PRiSM Music Gesture Recognition is licensed under the [MIT License](LICENSE). You are free to use, modify, and distribute the software in accordance with the terms of the license.
 
 -----------
+
+## Credits
+
+This work is supported by [PRiSM](https://www.rncm.ac.uk/research/research-centres-rncm/prism/), The RNCM Centre for Practice & Research in Science & Music, funded by the Research England fund Expanding Excellence in England (E3). [About](media/About.png)
+
+-----------
+
+## References
+[flucoma-max](https://github.com/flucoma/flucoma-max) \
+[max-sdk](https://github.com/Cycling74/max-sdk)
