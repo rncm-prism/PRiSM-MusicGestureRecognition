@@ -47,18 +47,20 @@ Note: You can use the `dropdown menu` to select a saved sample and the `Play` bu
 
 Click the `Activate` button to preprocess the data.
 
-### Training 
+### Training and Prediction
 
 1. After Data Preparation is finished, click the `Train` button to start the training process.
 2. The area below will display the training loss. Wait for it to reach a satisfactory level (lower is generally better).
 3. Click the `Train` button again to stop the training.
 4. Click the `Prediction` button to enable real-time gesture recognition.
 5. You can also use the `dropdown menu` and `Play` button to test the trained model with saved samples.
-6. Click the `Save` button to save the trained model to disk.
+6. Click the `Save` button to save the trained model and configuration to disk.
+7. Click the `Load` button to load the configuration file only! ***it will auto-load the model***.
 
 ### Fine-tuning
 
 Click the `Setting` button to open the setting window where you can find adjustable parameters. 
+** will add parameter description here later **
 
 ### OSC setting
 
