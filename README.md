@@ -29,7 +29,8 @@ PRiSM Music Gesture Recognition is a software tool for creating musical gesture 
 
 ## Usage#
 
-### Audio Statu
+### Audio Setting
+Click the `AudioStatu` button to open the [Audio Setting window](media/AudioSetting.png)
 
 ### Create and record gesture samples
 1. Click the `SelectFolder` button to select a folder to store all the recordings.
