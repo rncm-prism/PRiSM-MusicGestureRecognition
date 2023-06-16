@@ -62,7 +62,7 @@ Click the `Setting` button to open the setting window where you can find adjusta
 
 ### OSC setting
 
-Click the `OSC` button to enable OSC output and open the [OSC setting window](media/OSCSetting) to configure the OSC IP address and port.
+Click the `OSC` button to enable OSC output and open the [OSC setting window](media/OSC_Setting) to configure the OSC IP address and port.
 By default, the recognition results are sent to `127.0.0.1:9001` with the message address `/PRiSM_GR`.
 
 ### MIDI setting
