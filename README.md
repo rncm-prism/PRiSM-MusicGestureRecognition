@@ -86,4 +86,4 @@ PRiSM Music Gesture Recognition is licensed under the [MIT License](LICENSE). Yo
 
 ## Credits
 
-![About](media/About.png)
+This work is supported by [PRiSM](https://www.rncm.ac.uk/research/research-centres-rncm/prism/), The RNCM Centre for Practice & Research in Science & Music, funded by the Research England fund Expanding Excellence in England (E3). [About](media/About.png)
