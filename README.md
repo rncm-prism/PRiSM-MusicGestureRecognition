@@ -6,6 +6,8 @@ PRiSM Music Gesture Recognition is a software tool for creating musical gesture 
 
 **This software is in beta version and may contain bugs. Use with caution and at your own risk.**
 
+-----------
+
 ## Features
 1. Create and record multiple custom gesture samples. 
 2. Train the ML model based on custom gesture recordings.
@@ -13,3 +15,14 @@ PRiSM Music Gesture Recognition is a software tool for creating musical gesture 
 4. Output recognition result via OSC/MIDI.
 5. Save/load the trained ML model and configuration.
 6. Support for multiple input channels (Coming soon)
+
+-----------
+
+## Installation
+
+1. Go to the GitHub release page of the PRiSM Music Gesture Recognition project.
+2. Download the latest version of the software package for your operating system. (**Mac only currently**, if more people require the Windows version we can arrange it later.)
+3. Copy the PRiSM Music Gesture Recognition app to your application folder.
+4. Launch the PRiSM Music Gesture Recognition application.
+
+-----------
