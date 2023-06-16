@@ -71,3 +71,15 @@ Click the `MIDI` button to enable MIDI output and open the [MIDI setting window]
 The recognition results are automatically mapped to MIDI notes starting from MIDI note `60`. For example, the first gesture corresponds to MIDI note `60`, the second gesture to MIDI note `61`, and so on.
 
 -----------
+
+## Contributing
+
+Contributions to the PRiSM Music Gesture Recognition project are welcome! If you encounter any issues or have ideas for improvements, please submit them as GitHub issues or create a pull request with your proposed changes.
+
+-----------
+
+## License
+
+PRiSM Music Gesture Recognition is licensed under the [MIT License](LICENSE). You are free to use, modify, and distribute the software in accordance with the terms of the license.
+
+-----------
