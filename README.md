@@ -20,8 +20,8 @@ PRiSM Music Gesture Recognition is a software tool for creating musical gesture 
 
 ## Installation
 
-1. Go to the GitHub release page of the PRiSM Music Gesture Recognition project.
-2. Download the latest version of the software package for your operating system. (**macOSX only currently**, if more people require the Windows version we can arrange it later.)
+1. Go to the [GitHub release page](https://github.com/rncm-prism/PRiSM-MusicGestureRecognition/releases) of the PRiSM Music Gesture Recognition project.
+2. Download the latest version of the [software package](https://github.com/rncm-prism/PRiSM-MusicGestureRecognition/releases/download/v0.24a/PRiSM_MGR_0.24b.zip) for your operating system. (**macOSX only currently**, if more people require the Windows version we can arrange it later.)
 3. Copy the PRiSM Music Gesture Recognition app to your application folder.
 4. Launch the PRiSM Music Gesture Recognition application.
 
