@@ -25,6 +25,8 @@ PRiSM Music Gesture Recognition is a software tool for creating musical gesture 
 3. Copy the PRiSM Music Gesture Recognition app to your application folder.
 4. Launch the PRiSM Music Gesture Recognition application.
 
+   Note: If you see 'Open a Mac app from an unidentified developer', go this [page](https://support.apple.com/en-gb/guide/mac-help/mh40616/13.0/mac/13.0) for a solution.
+
 -----------
 
 ## Usage
