@@ -40,8 +40,9 @@ Click the `AudioStatu` button to open the [Audio Setting window](media/AudioSett
 1. Click the `SelectFolder` button to choose a folder to store all the recordings.
 2. Click the `Create` button to enter the name of the new gesture.
 3. Use the `Record` button to start and stop recording the sample.
-4. Click the `Save` button to save the recording to the selected folder.
-5. Repeat steps 3 and 4 to record additional samples for the current gesture.
+   >V0.25 new feature: Click the `Amp` button to enable the automatic recording trigger using the input amplitude detector.
+5. Click the `Save` button to save the recording to the selected folder.
+6. Repeat steps 3 and 4 to record additional samples for the current gesture.
 
 Note: You can use the `dropdown menu` to select a saved sample and the `Play` button to listen to it.
 
