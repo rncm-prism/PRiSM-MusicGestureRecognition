@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 611.0, 187.0, 881.0, 302.0 ],
+		"rect" : [ 2719.0, 148.0, 877.0, 304.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-63",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 304.0, 179.0, 103.0, 22.0 ],
+					"text" : "r #0_OtherSetting"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-69",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -61,13 +73,13 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 447.0, 816.0, 508.0, 312.0 ],
+						"rect" : [ 323.0, 507.0, 508.0, 312.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -95,7 +107,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Verdana",
@@ -749,7 +760,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1063,7 +1074,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2035,7 +2046,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2895,7 +2906,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3218,7 +3229,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 304.0, 203.0, 102.0, 22.0 ],
+					"patching_rect" : [ 216.333333333333343, 209.0, 102.0, 22.0 ],
 					"text" : "r #0_FolderName"
 				}
 
@@ -3463,7 +3474,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 172.5, 203.0, 97.0, 22.0 ],
+					"patching_rect" : [ 128.666666666666686, 179.0, 97.0, 22.0 ],
 					"text" : "r #0_projectPath"
 				}
 
@@ -3492,7 +3503,7 @@
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "bp_Recorder.maxpat",
-					"numinlets" : 3,
+					"numinlets" : 4,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
@@ -3583,7 +3594,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3842,7 +3853,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 4,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -4244,7 +4255,7 @@
 									"fontsize" : 14.0,
 									"hint" : "",
 									"id" : "obj-80",
-									"items" : [ "Off", ",", 1, "Output 1", ",", 2, "Output 2" ],
+									"items" : [ "Off", ",", 1, "Output 1", ",", 2, " - " ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -4362,7 +4373,7 @@
 									"fontsize" : 14.0,
 									"hint" : "",
 									"id" : "obj-69",
-									"items" : [ "Off", ",", 1, "Output 1", ",", 2, "Output 2" ],
+									"items" : [ "Off", ",", 1, "Output 1", ",", 2, " - " ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -4433,7 +4444,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 4,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -4669,7 +4680,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 4,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -4953,7 +4964,7 @@
 									"fontsize" : 14.0,
 									"hint" : "",
 									"id" : "obj-3",
-									"items" : [ "None", ",", "DELL P2415Q", ",", "MacBook Pro Speakers", ",", "UltraLite-mk4", ",", "ZoomAudioDevice" ],
+									"items" : [ "None", ",", "DELL P2415Q", ",", "MacBook Pro Speakers", ",", "Hongshuo’s AirPods Pro", ",", "ZoomAudioDevice" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -4993,7 +5004,7 @@
 									"fontsize" : 14.0,
 									"hint" : "",
 									"id" : "obj-12",
-									"items" : [ "None", ",", "FhsIMax Microphone", ",", "MacBook Pro Microphone", ",", "UltraLite-mk4", ",", "ZoomAudioDevice" ],
+									"items" : [ "None", ",", "FhsIMax Microphone", ",", "MacBook Pro Microphone", ",", "Hongshuo’s AirPods Pro", ",", "ZoomAudioDevice" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -5021,7 +5032,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 4,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -5243,7 +5254,7 @@
 									"fontsize" : 14.0,
 									"hint" : "",
 									"id" : "obj-41",
-									"items" : [ 44100, ",", 48000, ",", 88200, ",", 96000 ],
+									"items" : 24000,
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -5624,13 +5635,13 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 94.0, 784.0, 633.0, 284.0 ],
+						"rect" : [ 83.0, 586.0, 633.0, 284.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -6370,6 +6381,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-28", 3 ],
+					"source" : [ "obj-63", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-66", 0 ],
 					"source" : [ "obj-65", 0 ]
 				}
@@ -6423,6 +6441,7 @@
 			"obj-28::obj-17" : [ "live.text[2]", "live.text", 0 ],
 			"obj-28::obj-2" : [ "live.text[10]", "live.text[1]", 0 ],
 			"obj-28::obj-27" : [ "live.text[1]", "live.text[1]", 0 ],
+			"obj-28::obj-43" : [ "live.text[13]", "live.text", 0 ],
 			"obj-31::obj-17" : [ "live.text[7]", "live.text", 0 ],
 			"obj-33::obj-12" : [ "live.button[1]", "live.button", 0 ],
 			"obj-33::obj-4" : [ "live.text[18]", "live.text[8]", 0 ],
@@ -6461,6 +6480,14 @@
 ,
 				"obj-28::obj-2" : 				{
 					"parameter_longname" : "live.text[10]"
+				}
+,
+				"obj-28::obj-43" : 				{
+					"parameter_invisible" : 0,
+					"parameter_longname" : "live.text[13]",
+					"parameter_modmode" : 0,
+					"parameter_type" : 2,
+					"parameter_unitstyle" : 10
 				}
 ,
 				"obj-31::obj-17" : 				{

@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -42,7 +42,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-8",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -81,7 +81,7 @@
 ,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text",
+							"parameter_longname" : "live.text[7]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -89,8 +89,8 @@
 
 					}
 ,
-					"text" : "Stop",
-					"texton" : "Play",
+					"text" : "Play",
+					"texton" : "Stop",
 					"varname" : "live.text"
 				}
 
@@ -111,7 +111,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-13",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -126,7 +126,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "bang" ],
-					"patching_rect" : [ 454.0, 339.0, 94.0, 22.0 ],
+					"patching_rect" : [ 454.0, 339.0, 107.0, 22.0 ],
 					"text" : "play~ #0_player"
 				}
 
@@ -138,7 +138,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 101.0, 331.0, 140.0, 22.0 ],
+					"patching_rect" : [ 101.0, 331.0, 149.0, 22.0 ],
 					"text" : "loadmess set #0_player"
 				}
 
@@ -191,7 +191,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 270.0, 295.0, 102.0, 22.0 ],
+					"patching_rect" : [ 270.0, 295.0, 115.0, 22.0 ],
 					"text" : "buffer~ #0_player"
 				}
 
@@ -199,7 +199,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-3",
-					"items" : "<empty>",
+					"items" : [ "Songhao-A1-1.wav", ",", "Songhao-A1-2.wav", ",", "Songhao-A2-3.wav", ",", "Songhao-A2-4.wav", ",", "Songhao-B1-1.wav", ",", "Songhao-B1-2.wav", ",", "Songhao-B2-3.wav", ",", "Songhao-B2-4.wav", ",", "Songhao-B3-5.wav", ",", "Songhao-B3-6.wav", ",", "Songhao-C1-1.wav", ",", "Songhao-C1-2.wav", ",", "Songhao-C2-3.wav", ",", "Songhao-C2-4.wav", ",", "Songhao-C3-5.wav", ",", "Songhao-C3-6.wav", ",", "Songhao-C4-7.wav", ",", "Songhao-C4-8.wav", ",", "Songhao-C5-10.wav", ",", "Songhao-C5-9.wav", ",", "Songhao-C6-11.wav", ",", "Songhao-C6-12.wav", ",", "Songhao-D1-1.wav", ",", "Songhao-D1-2.wav", ",", "Songhao-D1-3.wav", ",", "Songhao-D1-7.wav", ",", "Songhao-D1-8.wav", ",", "Songhao-D1-9.wav", ",", "Songhao-D2-10.wav", ",", "Songhao-D2-11.wav", ",", "Songhao-D2-4.wav", ",", "Songhao-D3-12.wav", ",", "Songhao-D3-13.wav", ",", "Songhao-D3-5.wav", ",", "Songhao-D3-6.wav", ",", "Songhao-E1-1.wav", ",", "Songhao-E1-2.wav", ",", "Songhao-E1-3.wav", ",", "Songhao-E2-4.wav", ",", "Songhao-E2-5.wav", ",", "Songhao-E3-6.wav", ",", "Songhao-E3-7.wav", ",", "Songhao-E4-8.wav", ",", "Songhao-E4-9.wav", ",", "Songhao_2-A1-2.wav", ",", "Songhao_2-A1-3.wav", ",", "Songhao_2-A1-4.wav", ",", "Songhao_2-A1-5.wav", ",", "Songhao_2-A1-6.wav", ",", "Songhao_2-B1-1.wav", ",", "Songhao_2-B1-2.wav", ",", "Songhao_2-B1-3.wav", ",", "Songhao_2-B2-1.wav", ",", "Songhao_2-B2-2.wav", ",", "Songhao_2-B2-3.wav", ",", "Songhao_2-B3-1.wav", ",", "Songhao_2-B3-2.wav", ",", "Songhao_2-C1-1.wav", ",", "Songhao_2-C1-2.wav", ",", "Songhao_2-C1-3.wav", ",", "Songhao_2-C2-1.wav", ",", "Songhao_2-C2-2.wav", ",", "Songhao_2-C2-3.wav", ",", "Songhao_2-C3-1.wav", ",", "Songhao_2-C3-2.wav", ",", "Songhao_2-C3-3.wav", ",", "Songhao_2-C4-1.wav", ",", "Songhao_2-C4-2.wav", ",", "Songhao_2-C4-3.wav", ",", "Songhao_2-C5-1.wav", ",", "Songhao_2-C5-2.wav", ",", "Songhao_2-C5-3.wav", ",", "Songhao_2-C6-1.wav", ",", "Songhao_2-C6-2.wav", ",", "Songhao_2-C6-3.wav", ",", "Songhao_2-E1-1.wav", ",", "Songhao_2-E1-2.wav", ",", "Songhao_2-E2-1.wav", ",", "Songhao_2-E2-2.wav", ",", "Songhao_2-E3-1.wav", ",", "Songhao_2-E4-1.wav", ",", "Songhao_2-E4-2.wav" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -215,7 +215,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-2",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -228,11 +228,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-1",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "clear" ],
 					"patching_rect" : [ 80.0, 71.0, 30.0, 30.0 ]
 				}
 
@@ -355,23 +355,7 @@
 				}
 
 			}
- ],
-		"parameters" : 		{
-			"obj-17" : [ "live.text", "live.text", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [  ],
-		"autosave" : 0
+ ]
 	}
 
 }
