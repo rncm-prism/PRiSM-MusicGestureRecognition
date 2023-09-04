@@ -46,6 +46,7 @@
 					"automationon" : "Stop",
 					"fontsize" : 10.0,
 					"id" : "obj-43",
+					"ignoreclick" : 1,
 					"maxclass" : "live.text",
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -83,7 +84,7 @@
 				"box" : 				{
 					"comment" : "FolderPath",
 					"id" : "obj-42",
-					"index" : 4,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -309,7 +310,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "signal" ],
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 208.0, 40.0, 30.0, 30.0 ]
 								}
 
@@ -453,7 +454,7 @@
 				"box" : 				{
 					"comment" : "FolderPath",
 					"id" : "obj-7",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -520,6 +521,7 @@
 					"activebgoncolor" : [ 0.399982452392578, 1.0, 0.800006747245789, 1.0 ],
 					"fontsize" : 14.0,
 					"id" : "obj-2",
+					"ignoreclick" : 1,
 					"maxclass" : "live.text",
 					"mode" : 0,
 					"numinlets" : 1,
@@ -558,7 +560,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-5",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -620,6 +622,7 @@
 					"activebgcolor" : [ 0.501960784313725, 1.0, 0.031372549019608, 0.7 ],
 					"fontsize" : 14.0,
 					"id" : "obj-27",
+					"ignoreclick" : 1,
 					"maxclass" : "live.text",
 					"mode" : 0,
 					"numinlets" : 1,
@@ -671,6 +674,7 @@
 					"automationon" : "Stop",
 					"fontsize" : 14.0,
 					"id" : "obj-17",
+					"ignoreclick" : 1,
 					"maxclass" : "live.text",
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -771,7 +775,7 @@
 , 			{
 				"box" : 				{
 					"allowdrag" : 0,
-					"buffername" : "1274_gBuffer",
+					"buffername" : "1411_gBuffer",
 					"id" : "obj-9",
 					"ignoreclick" : 1,
 					"maxclass" : "waveform~",
@@ -803,7 +807,7 @@
 				"box" : 				{
 					"comment" : "FolderPath",
 					"id" : "obj-4",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -817,11 +821,11 @@
 				"box" : 				{
 					"comment" : "AudioInput",
 					"id" : "obj-3",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 290.0, 0.0, 30.0, 30.0 ],
 					"tricolor" : [ 0.986251831054688, 0.007236152887344, 0.027423052117229, 1.0 ]
 				}
@@ -946,7 +950,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-43", 0 ],
-					"midpoints" : [ 188.5, 299.75, 40.5, 299.75 ],
+					"midpoints" : [ 188.5, 295.75, 40.5, 295.75 ],
 					"order" : 3,
 					"source" : [ "obj-20", 0 ]
 				}
@@ -964,7 +968,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
-					"midpoints" : [ 275.5, 300.5, 397.0, 300.5, 397.0, 226.0, 518.5, 226.0 ],
+					"midpoints" : [ 275.5, 298.5, 397.0, 298.5, 397.0, 226.0, 518.5, 226.0 ],
 					"order" : 0,
 					"source" : [ "obj-22", 0 ]
 				}
@@ -982,7 +986,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-43", 0 ],
-					"midpoints" : [ 275.5, 298.75, 40.5, 298.75 ],
+					"midpoints" : [ 275.5, 320.75, 40.5, 320.75 ],
 					"order" : 3,
 					"source" : [ "obj-22", 0 ]
 				}
@@ -992,16 +996,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-17", 0 ],
 					"midpoints" : [ 226.5, 558.0, 172.5, 558.0, 172.5, 317.0, 188.5, 317.0 ],
-					"order" : 0,
-					"source" : [ "obj-24", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-43", 0 ],
-					"midpoints" : [ 226.5, 544.0, 133.5, 544.0, 133.5, 485.0, 40.5, 485.0 ],
-					"order" : 1,
 					"source" : [ "obj-24", 0 ]
 				}
 
@@ -1144,7 +1138,37 @@
 				}
 
 			}
- ]
+ ],
+		"parameters" : 		{
+			"obj-17" : [ "live.text[2]", "live.text", 0 ],
+			"obj-2" : [ "live.text[10]", "live.text[1]", 0 ],
+			"obj-27" : [ "live.text[1]", "live.text[1]", 0 ],
+			"obj-43" : [ "live.text[13]", "live.text", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "fluid.ampgate~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "p_recorder.maxpat",
+				"bootpath" : "~/Desktop/Development/MusicGestureRecognition/PRiSM_GR/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }

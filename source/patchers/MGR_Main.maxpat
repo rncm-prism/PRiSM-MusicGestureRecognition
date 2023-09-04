@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 2719.0, 148.0, 877.0, 304.0 ],
+		"rect" : [ 3014.0, 246.0, 877.0, 304.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -79,7 +79,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 323.0, 507.0, 508.0, 312.0 ],
+						"rect" : [ 2958.0, 585.0, 508.0, 312.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -107,6 +107,7 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Verdana",
@@ -157,10 +158,10 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 37.0, 79.0, 301.0, 27.0 ],
+									"patching_rect" : [ 37.0, 79.0, 327.0, 27.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 9.5, 9.0, 383.0, 27.0 ],
-									"text" : "PRiSM Music Gesture Recognition"
+									"text" : "PRiSM Music Gesture Recognition 0.25"
 								}
 
 							}
@@ -1203,7 +1204,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
 									"id" : "obj-35",
-									"items" : [ "AU DLS Synth 1", ",", "from Max 1", ",", "from Max 2" ],
+									"items" : [ "AU DLS Synth 1", ",", "from Max 1", ",", "from Max 2", ",", "UltraLite-mk4 MIDI Out" ],
 									"labelclick" : 1,
 									"maxclass" : "umenu",
 									"numinlets" : 1,
@@ -4255,7 +4256,7 @@
 									"fontsize" : 14.0,
 									"hint" : "",
 									"id" : "obj-80",
-									"items" : [ "Off", ",", 1, "Output 1", ",", 2, " - " ],
+									"items" : [ "Off", ",", 1, "Output 1", ",", 2, "Output 2" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -4373,7 +4374,7 @@
 									"fontsize" : 14.0,
 									"hint" : "",
 									"id" : "obj-69",
-									"items" : [ "Off", ",", 1, "Output 1", ",", 2, " - " ],
+									"items" : [ "Off", ",", 1, "Output 1", ",", 2, "Output 2" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -4964,7 +4965,7 @@
 									"fontsize" : 14.0,
 									"hint" : "",
 									"id" : "obj-3",
-									"items" : [ "None", ",", "DELL P2415Q", ",", "MacBook Pro Speakers", ",", "Hongshuo’s AirPods Pro", ",", "ZoomAudioDevice" ],
+									"items" : [ "None", ",", "DELL P2415Q", ",", "MacBook Pro Speakers", ",", "UltraLite-mk4", ",", "ZoomAudioDevice" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -5004,7 +5005,7 @@
 									"fontsize" : 14.0,
 									"hint" : "",
 									"id" : "obj-12",
-									"items" : [ "None", ",", "FhsIMax Microphone", ",", "MacBook Pro Microphone", ",", "Hongshuo’s AirPods Pro", ",", "ZoomAudioDevice" ],
+									"items" : [ "None", ",", "FhsIMax Microphone", ",", "MacBook Pro Microphone", ",", "UltraLite-mk4", ",", "ZoomAudioDevice" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -5254,7 +5255,7 @@
 									"fontsize" : 14.0,
 									"hint" : "",
 									"id" : "obj-41",
-									"items" : 24000,
+									"items" : [ 44100, ",", 48000, ",", 88200, ",", 96000 ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
