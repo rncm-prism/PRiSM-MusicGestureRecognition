@@ -1,0 +1,17 @@
+max objectfile fluid.dataset~ fluid.libmanipulation fluid.dataset~;
+max objectfile fluid.labelset~ fluid.libmanipulation fluid.labelset~;
+max objectfile fluid.kdtree~ fluid.libmanipulation fluid.kdtree~;
+max objectfile fluid.kmeans~ fluid.libmanipulation fluid.kmeans~;
+max objectfile fluid.skmeans~ fluid.libmanipulation fluid.skmeans~;
+max objectfile fluid.knnclassifier~ fluid.libmanipulation fluid.knnclassifier~;
+max objectfile fluid.knnregressor~ fluid.libmanipulation fluid.knnregressor~;
+max objectfile fluid.normalize~ fluid.libmanipulation fluid.normalize~;
+max objectfile fluid.standardize~ fluid.libmanipulation fluid.standardize~;
+max objectfile fluid.robustscale~ fluid.libmanipulation fluid.robustscale~;
+max objectfile fluid.pca~ fluid.libmanipulation fluid.pca~;
+max objectfile fluid.mds~ fluid.libmanipulation fluid.mds~;
+max objectfile fluid.umap~ fluid.libmanipulation fluid.umap~;
+max objectfile fluid.grid~ fluid.libmanipulation fluid.grid~;
+max objectfile fluid.datasetquery~ fluid.libmanipulation fluid.datasetquery~;
+max objectfile fluid.mlpregressor~ fluid.libmanipulation fluid.mlpregressor~;
+max objectfile fluid.mlpclassifier~ fluid.libmanipulation fluid.mlpclassifier~;
