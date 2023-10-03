@@ -58,7 +58,8 @@ Click the `Activate` button to preprocess the data.
 4. Click the `Prediction` button to enable real-time gesture recognition.
 5. You can also use the `dropdown menu` and `Play` button to test the trained model with saved samples.
 6. Click the `Save` button to save the trained model and configuration to disk.
-7. Click the `Load` button to load the configuration file only! ***it will auto-load the model***.
+   >v0.25b new features: save OSC setting with configurations; merge the configurations and trained model into one file. 
+8. Click the `Load` button to load the configuration file only! ***it will auto-load the model***.
 
 ### Fine-tuning
 
