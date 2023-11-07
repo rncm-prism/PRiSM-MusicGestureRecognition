@@ -57,14 +57,18 @@ Click the `Activate` button to preprocess the data.
 3. Click the `Train` button again to stop the training.
 4. Click the `Prediction` button to enable real-time gesture recognition.
 5. You can also use the `dropdown menu` and `Play` button to test the trained model with saved samples.
-6. Click the `Save` button to save the trained model and configuration to disk.
+6. Click the `Save` button to save ~~the trained model and configuration to disk.~~
    >v0.25b new features: save OSC setting with configurations; merge the configurations and trained model into one file. 
 8. Click the `Load` button to load the configuration file only! ***it will auto-load the model***.
 
 ### Fine-tuning
 
 Click the `Setting` button to open the setting window where you can find adjustable parameters. \
-**will add parameter descriptions here later**
+Parameter Name             |  Description                                                                                                              | Default Value
+-------------              | -------------                                                                                                             | -------------
+Pitch Confidence threshold |  Threshold for the pitch detection algorithm helps reduce noise in the feature extraction.                                | 30%
+On Threshold               |  Amplitude gate level, used to trigger listening and prediction.                                                          | -39dB
+Timer                      |  The system reports after listening. If the timer is shorter than the default, it refreshes the buffer and forces a prediction. If longer than the default, it is disabled.         | Default is the longest duration in the training files but no more than 6s.
 
 ### OSC setting
 
