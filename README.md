@@ -82,8 +82,8 @@ The recognition results are automatically mapped to MIDI notes starting from MID
 Click the `Audio` button to enable the gesture audio player and open the player window to configure the gesture-audio mapping.
 1. After completing the training, the gesture-audio cells will spawn in the player window.
 2. Put all your audio files in one folder and Click the `SelectFolder` button to load them into the system.
-3. Using the dropdown menu in each cell to configure the mapping.
-
+3. Using the dropdown menu in each gesture-audio cell to configure the mapping.
+>todo: remove mapping 
 -----------
 
 ## Contributing
