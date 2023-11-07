@@ -76,6 +76,14 @@ By default, the recognition results are sent to `127.0.0.1:9001` with the messag
 Click the `MIDI` button to enable MIDI output and open the [MIDI setting window](media/MidiSetting.png) to configure the MIDI output.
 The recognition results are automatically mapped to MIDI notes starting from MIDI note `60`. For example, the first gesture corresponds to MIDI note `60`, the second gesture to MIDI note `61`, and so on.
 
+### AudioPlayer setting
+>v0.26b new features
+
+Click the `Audio` button to enable the gesture audio player and open the player window to configure the gesture-audio mapping.
+1. After completing the training, the gesture-audio cells will spawn in the player window.
+2. Put all your audio files in one folder and Click the `SelectFolder` button to load them into the system.
+3. Using the dropdown menu in each cell to configure the mapping.
+
 -----------
 
 ## Contributing
