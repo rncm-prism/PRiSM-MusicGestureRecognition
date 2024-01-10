@@ -2,8 +2,8 @@
 	"name" : "PRiSM_GR",
 	"version" : 1,
 	"creationdate" : 3767087226,
-	"modificationdate" : 3787672844,
-	"viewrect" : [ 144.0, 255.0, 415.0, 841.0 ],
+	"modificationdate" : 3787767573,
+	"viewrect" : [ 38.0, 237.0, 415.0, 841.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -65,6 +65,11 @@
 				"local" : 1
 			}
 ,
+			"bp_sPlayer.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
 			"p_PredictionInput.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
@@ -76,11 +81,6 @@
 			}
 ,
 			"p_model.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"bp_sPlayer.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -127,7 +127,8 @@
 			}
 ,
 			"interfacecolor.js" : 			{
-				"kind" : "javascript"
+				"kind" : "javascript",
+				"local" : 1
 			}
 
 		}
@@ -217,7 +218,7 @@
 				"kind" : "object",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Desktop/Development/MusicGestureRecognition/PRiSM_GR/code",
+					"bootpath" : "~/Desktop/Development/PRiSM-MusicGestureRecognition/source/PRiSM_GR/code",
 					"projectrelativepath" : "./code"
 				}
 
@@ -227,7 +228,7 @@
 				"kind" : "object",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Desktop/Development/MusicGestureRecognition/PRiSM_GR/code",
+					"bootpath" : "~/Desktop/Development/PRiSM-MusicGestureRecognition/source/PRiSM_GR/code",
 					"projectrelativepath" : "./code"
 				}
 
@@ -237,7 +238,7 @@
 				"kind" : "object",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Desktop/Development/MusicGestureRecognition/PRiSM_GR/code",
+					"bootpath" : "~/Desktop/Development/PRiSM-MusicGestureRecognition/source/PRiSM_GR/code",
 					"projectrelativepath" : "./code"
 				}
 
