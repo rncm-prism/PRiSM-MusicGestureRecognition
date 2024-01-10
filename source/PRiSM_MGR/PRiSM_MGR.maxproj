@@ -1,8 +1,8 @@
 {
-	"name" : "PRiSM_GR",
+	"name" : "PRiSM_MGR",
 	"version" : 1,
 	"creationdate" : 3767087226,
-	"modificationdate" : 3787767573,
+	"modificationdate" : 3787769187,
 	"viewrect" : [ 38.0, 237.0, 415.0, 841.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
@@ -65,11 +65,6 @@
 				"local" : 1
 			}
 ,
-			"bp_sPlayer.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
 			"p_PredictionInput.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
@@ -81,6 +76,11 @@
 			}
 ,
 			"p_model.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"bp_sPlayer.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -216,32 +216,17 @@
 ,
 			"fluid.dataset~.mxo" : 			{
 				"kind" : "object",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "~/Desktop/Development/PRiSM-MusicGestureRecognition/source/PRiSM_GR/code",
-					"projectrelativepath" : "./code"
-				}
-
+				"local" : 1
 			}
 ,
 			"fluid.labelset~.mxo" : 			{
 				"kind" : "object",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "~/Desktop/Development/PRiSM-MusicGestureRecognition/source/PRiSM_GR/code",
-					"projectrelativepath" : "./code"
-				}
-
+				"local" : 1
 			}
 ,
 			"fluid.mlpclassifier~.mxo" : 			{
 				"kind" : "object",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "~/Desktop/Development/PRiSM-MusicGestureRecognition/source/PRiSM_GR/code",
-					"projectrelativepath" : "./code"
-				}
-
+				"local" : 1
 			}
 
 		}
