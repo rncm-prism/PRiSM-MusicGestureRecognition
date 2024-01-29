@@ -2,7 +2,7 @@
 	"name" : "PRiSM_MGR",
 	"version" : 1,
 	"creationdate" : 3767087226,
-	"modificationdate" : 3787769187,
+	"modificationdate" : 3789367227,
 	"viewrect" : [ 38.0, 237.0, 415.0, 841.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
@@ -40,11 +40,6 @@
 				"local" : 1
 			}
 ,
-			"p_featureExtraction_polyphonic.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
 			"bp_Recorder.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
@@ -65,7 +60,32 @@
 				"local" : 1
 			}
 ,
-			"p_PredictionInput.maxpat" : 			{
+			"bp_validation.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"bp_sPlayer.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"p_PredictionInput_looping.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Desktop/Development/MusicGestureRecognition/PRiSM_MGR_dev/patchers",
+					"projectrelativepath" : "../../../MusicGestureRecognition/PRiSM_MGR_dev/patchers"
+				}
+
+			}
+,
+			"p_featureExtraction_mix.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"p_featureExtraction_polyphonic.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -80,7 +100,7 @@
 				"local" : 1
 			}
 ,
-			"bp_sPlayer.maxpat" : 			{
+			"p_PredictionInput.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -121,12 +141,12 @@
 				"local" : 1
 			}
 ,
-			"stft_featureExatraction.js" : 			{
+			"interfacecolor.js" : 			{
 				"kind" : "javascript",
 				"local" : 1
 			}
 ,
-			"interfacecolor.js" : 			{
+			"stft_featureExatraction.js" : 			{
 				"kind" : "javascript",
 				"local" : 1
 			}
@@ -154,17 +174,7 @@
 				"local" : 1
 			}
 ,
-			"fluid.bufchroma~.mxo" : 			{
-				"kind" : "object",
-				"local" : 1
-			}
-,
 			"fluid.bufcompose~.mxo" : 			{
-				"kind" : "object",
-				"local" : 1
-			}
-,
-			"fluid.bufnoveltyslice~.mxo" : 			{
 				"kind" : "object",
 				"local" : 1
 			}
@@ -184,11 +194,6 @@
 				"local" : 1
 			}
 ,
-			"fluid.bufspectralshape~.mxo" : 			{
-				"kind" : "object",
-				"local" : 1
-			}
-,
 			"fluid.bufstats~.mxo" : 			{
 				"kind" : "object",
 				"local" : 1
@@ -204,6 +209,41 @@
 				"local" : 1
 			}
 ,
+			"fluid.bufchroma~.mxo" : 			{
+				"kind" : "object",
+				"local" : 1
+			}
+,
+			"fluid.bufnoveltyslice~.mxo" : 			{
+				"kind" : "object",
+				"local" : 1
+			}
+,
+			"fluid.bufspectralshape~.mxo" : 			{
+				"kind" : "object",
+				"local" : 1
+			}
+,
+			"fluid.dataset~.mxo" : 			{
+				"kind" : "object",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Desktop/Development/MusicGestureRecognition/PRiSM_MGR_dev/code",
+					"projectrelativepath" : "../../../MusicGestureRecognition/PRiSM_MGR_dev/code"
+				}
+
+			}
+,
+			"fluid.labelset~.mxo" : 			{
+				"kind" : "object",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Desktop/Development/MusicGestureRecognition/PRiSM_MGR_dev/code",
+					"projectrelativepath" : "../../../MusicGestureRecognition/PRiSM_MGR_dev/code"
+				}
+
+			}
+,
 			"fluid.bufstft~.mxo" : 			{
 				"kind" : "object",
 				"local" : 1
@@ -214,19 +254,14 @@
 				"local" : 1
 			}
 ,
-			"fluid.dataset~.mxo" : 			{
-				"kind" : "object",
-				"local" : 1
-			}
-,
-			"fluid.labelset~.mxo" : 			{
-				"kind" : "object",
-				"local" : 1
-			}
-,
 			"fluid.mlpclassifier~.mxo" : 			{
 				"kind" : "object",
-				"local" : 1
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Desktop/Development/PRiSM-MusicGestureRecognition/source/PRiSM_MGR/code",
+					"projectrelativepath" : "./code"
+				}
+
 			}
 
 		}
