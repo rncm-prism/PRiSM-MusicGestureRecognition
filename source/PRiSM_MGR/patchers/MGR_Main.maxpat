@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 66.0, 113.0, 910.0, 510.0 ],
+		"rect" : [ 66.0, 113.0, 1556.0, 1024.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -1319,18 +1319,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-49",
-					"linecount" : 3,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1283.0, 330.0, 150.0, 47.0 ],
-					"text" : "audio input adjustment and detect sensitive adjustment"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-54",
 					"maxclass" : "live.button",
 					"numinlets" : 1,
@@ -1450,15 +1438,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-45",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1047.5, 617.0, 208.0, 33.0 ],
+					"patching_rect" : [ 1047.5, 617.0, 208.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 326.0, 24.0, 208.0, 33.0 ],
-					"text" : "js: js: no function result_buffer [stft_featureExatraction.js]",
+					"presentation_rect" : [ 326.0, 24.0, 208.0, 20.0 ],
 					"textcolor" : [ 0.741176470588235, 0.0, 0.0, 1.0 ]
 				}
 
@@ -17069,18 +17054,6 @@
 			"obj-60::obj-53" : [ "live.text[29]", "live.text[8]", 0 ],
 			"obj-64::obj-22" : [ "mc.live.gain~", "Output", 0 ],
 			"obj-64::obj-30" : [ "live.text", "live.text", 0 ],
-			"obj-64::obj-59::obj-6" : [ "live.toggle[13]", "live.toggle", 0 ],
-			"obj-64::obj-59::obj-87" : [ "live.button[14]", "live.button", 0 ],
-			"obj-64::obj-65::obj-6" : [ "live.toggle[14]", "live.toggle", 0 ],
-			"obj-64::obj-65::obj-87" : [ "live.button[2]", "live.button", 0 ],
-			"obj-64::obj-68::obj-6" : [ "live.toggle[15]", "live.toggle", 0 ],
-			"obj-64::obj-68::obj-87" : [ "live.button[3]", "live.button", 0 ],
-			"obj-64::obj-71::obj-6" : [ "live.toggle[16]", "live.toggle", 0 ],
-			"obj-64::obj-71::obj-87" : [ "live.button[4]", "live.button", 0 ],
-			"obj-64::obj-73::obj-6" : [ "live.toggle[17]", "live.toggle", 0 ],
-			"obj-64::obj-73::obj-87" : [ "live.button[16]", "live.button", 0 ],
-			"obj-64::obj-75::obj-6" : [ "live.toggle[18]", "live.toggle", 0 ],
-			"obj-64::obj-75::obj-87" : [ "live.button[17]", "live.button", 0 ],
 			"obj-64::obj-931" : [ "live.text[5]", "live.text", 0 ],
 			"obj-75" : [ "live.text[24]", "live.text", 0 ],
 			"obj-87" : [ "Accuracy", "Accuracy", 0 ],
@@ -17192,46 +17165,6 @@
 					"parameter_longname" : "live.text"
 				}
 ,
-				"obj-64::obj-65::obj-6" : 				{
-					"parameter_longname" : "live.toggle[14]"
-				}
-,
-				"obj-64::obj-65::obj-87" : 				{
-					"parameter_longname" : "live.button[2]"
-				}
-,
-				"obj-64::obj-68::obj-6" : 				{
-					"parameter_longname" : "live.toggle[15]"
-				}
-,
-				"obj-64::obj-68::obj-87" : 				{
-					"parameter_longname" : "live.button[3]"
-				}
-,
-				"obj-64::obj-71::obj-6" : 				{
-					"parameter_longname" : "live.toggle[16]"
-				}
-,
-				"obj-64::obj-71::obj-87" : 				{
-					"parameter_longname" : "live.button[4]"
-				}
-,
-				"obj-64::obj-73::obj-6" : 				{
-					"parameter_longname" : "live.toggle[17]"
-				}
-,
-				"obj-64::obj-73::obj-87" : 				{
-					"parameter_longname" : "live.button[16]"
-				}
-,
-				"obj-64::obj-75::obj-6" : 				{
-					"parameter_longname" : "live.toggle[18]"
-				}
-,
-				"obj-64::obj-75::obj-87" : 				{
-					"parameter_longname" : "live.button[17]"
-				}
-,
 				"obj-64::obj-931" : 				{
 					"parameter_longname" : "live.text[5]"
 				}
@@ -17243,91 +17176,84 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "MG_AudioPlayer.js",
-				"bootpath" : "~/Desktop/Development/MusicGestureRecognition/PRiSM_MGR_dev/code",
+				"bootpath" : "~/Desktop/Development/PRiSM-MusicGestureRecognition/source/PRiSM_MGR/code",
 				"patcherrelativepath" : "../code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "PRiSM Logo (text)-01.png",
-				"bootpath" : "~/Desktop/Development/MusicGestureRecognition/PRiSM_MGR_dev/media",
+				"bootpath" : "~/Desktop/Development/PRiSM-MusicGestureRecognition/source/PRiSM_MGR/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "RNCM-Logo-BLK.jpg",
-				"bootpath" : "~/Desktop/Development/MusicGestureRecognition/PRiSM_MGR_dev/media",
+				"bootpath" : "~/Desktop/Development/PRiSM-MusicGestureRecognition/source/PRiSM_MGR/media",
 				"patcherrelativepath" : "../media",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "UKRI logo.png",
-				"bootpath" : "~/Desktop/Development/MusicGestureRecognition/PRiSM_MGR_dev/media",
+				"bootpath" : "~/Desktop/Development/PRiSM-MusicGestureRecognition/source/PRiSM_MGR/media",
 				"patcherrelativepath" : "../media",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp_DataAugmentation.maxpat",
-				"bootpath" : "~/Desktop/Development/MusicGestureRecognition/PRiSM_MGR_dev/patchers",
+				"bootpath" : "~/Desktop/Development/PRiSM-MusicGestureRecognition/source/PRiSM_MGR/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp_DataLoder.maxpat",
-				"bootpath" : "~/Desktop/Development/MusicGestureRecognition/PRiSM_MGR_dev/patchers",
+				"bootpath" : "~/Desktop/Development/PRiSM-MusicGestureRecognition/source/PRiSM_MGR/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp_DataPreparation.maxpat",
-				"bootpath" : "~/Desktop/Development/MusicGestureRecognition/PRiSM_MGR_dev/patchers",
+				"bootpath" : "~/Desktop/Development/PRiSM-MusicGestureRecognition/source/PRiSM_MGR/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp_Recorder.maxpat",
-				"bootpath" : "~/Desktop/Development/MusicGestureRecognition/PRiSM_MGR_dev/patchers",
+				"bootpath" : "~/Desktop/Development/PRiSM-MusicGestureRecognition/source/PRiSM_MGR/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp_Save&Load.maxpat",
-				"bootpath" : "~/Desktop/Development/MusicGestureRecognition/PRiSM_MGR_dev/patchers",
+				"bootpath" : "~/Desktop/Development/PRiSM-MusicGestureRecognition/source/PRiSM_MGR/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp_player.maxpat",
-				"bootpath" : "~/Desktop/Development/MusicGestureRecognition/PRiSM_MGR_dev/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "bp_sPlayer.maxpat",
-				"bootpath" : "~/Desktop/Development/MusicGestureRecognition/PRiSM_MGR_dev/patchers",
+				"bootpath" : "~/Desktop/Development/PRiSM-MusicGestureRecognition/source/PRiSM_MGR/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp_validation.maxpat",
-				"bootpath" : "~/Desktop/Development/MusicGestureRecognition/PRiSM_MGR_dev/patchers",
+				"bootpath" : "~/Desktop/Development/PRiSM-MusicGestureRecognition/source/PRiSM_MGR/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "fav-max.js",
-				"bootpath" : "~/Desktop/Development/MusicGestureRecognition/PRiSM_MGR_dev/code",
+				"bootpath" : "~/Desktop/Development/PRiSM-MusicGestureRecognition/source/PRiSM_MGR/code",
 				"patcherrelativepath" : "../code",
 				"type" : "TEXT",
 				"implicit" : 1
@@ -17405,10 +17331,6 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "fluid.normalize~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
 				"name" : "fluid.noveltyslice~.mxo",
 				"type" : "iLaX"
 			}
@@ -17418,20 +17340,21 @@
 			}
 , 			{
 				"name" : "fluid.waveform~.js",
-				"bootpath" : "~/Desktop/Development/MusicGestureRecognition/PRiSM_MGR_dev/code",
+				"bootpath" : "~/Desktop/Development/PRiSM-MusicGestureRecognition/source/PRiSM_MGR/code",
 				"patcherrelativepath" : "../code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "interfacecolor.js",
-				"bootpath" : "C74:/interfaces",
+				"bootpath" : "~/Desktop/Development/PRiSM-MusicGestureRecognition/source/PRiSM_MGR/code",
+				"patcherrelativepath" : "../code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "p_DataLoader.maxpat",
-				"bootpath" : "~/Desktop/Development/MusicGestureRecognition/PRiSM_MGR_dev/patchers",
+				"bootpath" : "~/Desktop/Development/PRiSM-MusicGestureRecognition/source/PRiSM_MGR/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -17439,55 +17362,55 @@
 , 			{
 				"name" : "p_PredictionInput_looping.maxpat",
 				"bootpath" : "~/Desktop/Development/MusicGestureRecognition/PRiSM_MGR_dev/patchers",
-				"patcherrelativepath" : ".",
+				"patcherrelativepath" : "../../../../MusicGestureRecognition/PRiSM_MGR_dev/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "p_audioPlayer.maxpat",
-				"bootpath" : "~/Desktop/Development/MusicGestureRecognition/PRiSM_MGR_dev/patchers",
+				"bootpath" : "~/Desktop/Development/PRiSM-MusicGestureRecognition/source/PRiSM_MGR/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "p_featureExtraction_bufPitch.maxpat",
-				"bootpath" : "~/Desktop/Development/MusicGestureRecognition/PRiSM_MGR_dev/patchers",
+				"bootpath" : "~/Desktop/Development/PRiSM-MusicGestureRecognition/source/PRiSM_MGR/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "p_featureExtraction_mix.maxpat",
-				"bootpath" : "~/Desktop/Development/MusicGestureRecognition/PRiSM_MGR_dev/patchers",
+				"bootpath" : "~/Desktop/Development/PRiSM-MusicGestureRecognition/source/PRiSM_MGR/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "p_featureExtraction_polyphonic.maxpat",
-				"bootpath" : "~/Desktop/Development/MusicGestureRecognition/PRiSM_MGR_dev/patchers",
+				"bootpath" : "~/Desktop/Development/PRiSM-MusicGestureRecognition/source/PRiSM_MGR/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "p_model.maxpat",
-				"bootpath" : "~/Desktop/Development/MusicGestureRecognition/PRiSM_MGR_dev/patchers",
+				"bootpath" : "~/Desktop/Development/PRiSM-MusicGestureRecognition/source/PRiSM_MGR/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "p_recorder.maxpat",
-				"bootpath" : "~/Desktop/Development/MusicGestureRecognition/PRiSM_MGR_dev/patchers",
+				"bootpath" : "~/Desktop/Development/PRiSM-MusicGestureRecognition/source/PRiSM_MGR/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "stft_featureExatraction.js",
-				"bootpath" : "~/Desktop/Development/MusicGestureRecognition/PRiSM_MGR_dev/code",
+				"bootpath" : "~/Desktop/Development/PRiSM-MusicGestureRecognition/source/PRiSM_MGR/code",
 				"patcherrelativepath" : "../code",
 				"type" : "TEXT",
 				"implicit" : 1
