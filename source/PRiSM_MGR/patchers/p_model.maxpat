@@ -40,6 +40,21 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-32",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 768.650000000000091, 45.0, 199.5, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 6.0, 8.0, 199.5, 20.0 ],
+					"style" : "helpfile_label",
+					"text" : "Training & Prediction",
+					"textcolor" : [ 0.807843137254902, 0.898039215686275, 0.909803921568627, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-24",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -826,7 +841,9 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"format" : 6,
+					"htricolor" : [ 0.929411764705882, 0.929411764705882, 0.352941176470588, 0.0 ],
 					"id" : "obj-52",
 					"ignoreclick" : 1,
 					"maxclass" : "flonum",
@@ -836,7 +853,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 153.0, 432.5, 79.5, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 213.5, 44.5, 58.5, 22.0 ]
+					"presentation_rect" : [ 214.5, 56.0, 58.5, 22.0 ],
+					"tricolor" : [ 0.501960784313725, 0.501960784313725, 0.501960784313725, 0.0 ]
 				}
 
 			}
@@ -850,7 +868,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 153.0, 608.5, 108.0, 79.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 13.0, 44.5, 260.0, 71.0 ],
+					"presentation_rect" : [ 13.0, 56.0, 260.0, 71.0 ],
 					"setminmax" : [ 0.0, 1.0 ],
 					"setstyle" : 5
 				}
@@ -1004,7 +1022,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 516.0, 235.0, 51.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 69.5, 24.0, 43.0, 19.0 ],
+					"presentation_rect" : [ 70.0, 35.0, 43.0, 19.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgoncolor" : 						{
 							"expression" : ""
@@ -1038,7 +1056,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 61.0, 77.0, 51.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 13.0, 24.0, 43.0, 19.0 ],
+					"presentation_rect" : [ 13.0, 35.0, 43.0, 19.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgoncolor" : 						{
 							"expression" : ""

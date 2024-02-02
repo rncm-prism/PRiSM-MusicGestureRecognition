@@ -1,2 +1,0 @@
-# PRiSM_MusicGestureRecognition
- 

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1308.0, 101.0, 1523.0, 1189.0 ],
+		"rect" : [ 1003.0, 100.0, 721.0, 1189.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -637,7 +637,7 @@
 
 					}
 ,
-					"text" : "Active",
+					"text" : "Activate",
 					"varname" : "live.text"
 				}
 
@@ -2888,7 +2888,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 246.5, 328.0, 182.0, 22.0 ],
-					"text" : "dictionary 2252_dataset_infor"
+					"text" : "dictionary 2334_dataset_infor"
 				}
 
 			}

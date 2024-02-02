@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1101.0, 284.0, 1425.0, 1052.0 ],
+		"rect" : [ 333.0, 87.0, 1425.0, 934.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -345,7 +345,7 @@
 
 					}
 ,
-					"text" : "Active",
+					"text" : "Activate",
 					"varname" : "live.text"
 				}
 
@@ -605,7 +605,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 195.0, 242.0, 808.0, 1074.0 ],
+						"rect" : [ 212.0, 87.0, 808.0, 934.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -633,7 +633,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-64",
@@ -677,7 +676,7 @@
 									"maxclass" : "dict.view",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 205.0, 892.0, 440.0, 122.0 ]
+									"patching_rect" : [ 294.0, 756.0, 460.0, 211.0 ]
 								}
 
 							}
@@ -914,8 +913,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 19.0, 628.0, 124.0, 22.0 ],
-									"text" : "Speech2-f-25.wav"
+									"patching_rect" : [ 19.0, 628.0, 199.0, 22.0 ],
+									"text" : "SamChordsGestures_test-c9-1.wav"
 								}
 
 							}
@@ -1143,6 +1142,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-6", 0 ],
+									"midpoints" : [ 214.5, 877.0, 283.0, 877.0, 283.0, 745.0, 303.5, 745.0 ],
 									"source" : [ "obj-2", 0 ]
 								}
 
@@ -2106,7 +2106,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 337.5, 353.0, 182.0, 22.0 ],
-					"text" : "dictionary 2904_dataset_infor"
+					"text" : "dictionary 2334_dataset_infor"
 				}
 
 			}

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 552.0, 127.0, 1599.0, 1114.0 ],
+		"rect" : [ 159.0, 87.0, 1599.0, 934.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -186,18 +186,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-128",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 462.0, 129.0, 116.0, 22.0 ],
-					"text" : "buffer~ u191001805"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-97",
 					"linecount" : 3,
 					"maxclass" : "message",
@@ -205,7 +193,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 17.916671514511108, 302.249994993209839, 50.0, 49.0 ],
-					"text" : "buffer u443004241"
+					"text" : "buffer u645006105"
 				}
 
 			}
