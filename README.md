@@ -114,7 +114,7 @@ Prediction                 |  Disable and enable prediction                     
 
 ### Validation
 
-Test your model with the `Player & Validation` module.
+Test your model with the [Player & Validation](media/Player_Validation.png) module.
 - Using the `dropdown menu` and `Play` button to test the trained model with saved samples.
 - Set the number of validation and toggle to enable the automatic random validation. After the auto-validation is finished, it will display each gestuers' accuracy and `average accuracy`.
 
