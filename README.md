@@ -76,6 +76,8 @@ PRiSM Music Gesture Recognition is a software tool for creating musical gesture 
 4. Save your samples with `Save`.
 5. Review and play samples using the dropdown menu and `Play`.
 
+**Using your existing dataset**: If you choose a folder that already has the gesture sample files, ensure that the files in the folder follow the same naming convention. The naming convention is 'name-label-index'. The 'name' can be any preferred name, but by default, it is the folder name. The 'label' is the actual gesture name used for training and prediction purposes. The 'index' is not as crucial here and is mostly used for reference.
+
 **Note: You can use the `dropdown menu` to select a saved sample and the `Play` button to listen to it.**
 
 ### Data Augmentation
