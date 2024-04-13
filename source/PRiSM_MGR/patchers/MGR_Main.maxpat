@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 0,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -227,6 +227,7 @@
 							"parameter_longname" : "live.gain~[1]",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "Output",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4
@@ -400,7 +401,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 0,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -658,6 +659,7 @@
 						"valueof" : 						{
 							"parameter_longname" : "Accuracy",
 							"parameter_mmax" : 100.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "Accuracy",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 5
@@ -798,6 +800,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_longname" : "live.text[24]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -904,7 +907,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 0,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1428,6 +1431,7 @@
 							"parameter_enum" : [ "off", "on" ],
 							"parameter_longname" : "live.button[10]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.button",
 							"parameter_type" : 2
 						}
@@ -1543,7 +1547,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 0,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1755,6 +1759,7 @@
 							"parameter_longname" : "live.gain~",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "Input1",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4
@@ -1801,6 +1806,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_longname" : "live.text[14]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -1835,6 +1841,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_longname" : "live.text[27]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -1859,7 +1866,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 0,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3104,7 +3111,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 0,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -4189,7 +4196,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 0,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -4950,6 +4957,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_longname" : "live.text[26]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -5009,6 +5017,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_longname" : "live.text[4]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -5124,6 +5133,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_longname" : "live.text[21]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -5159,7 +5169,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 0,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -5204,7 +5214,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 0,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -5553,7 +5563,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 6,
-															"revision" : 0,
+															"revision" : 2,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -7173,7 +7183,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 6,
-															"revision" : 0,
+															"revision" : 2,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -8091,7 +8101,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 6,
-															"revision" : 0,
+															"revision" : 2,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -9296,7 +9306,7 @@
 													"fontsize" : 12.0,
 													"hint" : "",
 													"id" : "obj-163",
-													"items" : [ "Off", ",", 1, "Mix In 19", ",", 2, "Mix In 20", ",", 3, "Analog 1", ",", 4, "Analog 2", ",", 5, "Analog 3", ",", 6, "Analog 4", ",", 7, "Analog 5", ",", 8, "Analog 6", ",", 9, "Analog 7", ",", 10, "Analog 8", ",", 11, "ADAT 1", ",", 12, "ADAT 2", ",", 13, "ADAT 3", ",", 14, "ADAT 4", ",", 15, "ADAT 5", ",", 16, "ADAT 6", ",", 17, "ADAT 7", ",", 18, "ADAT 8", ",", 19, "S/PDIF 1", ",", 20, "S/PDIF 2" ],
+													"items" : [ "Off", ",", 1, "Output 1", ",", 2, "Output 2" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -9326,7 +9336,7 @@
 													"fontsize" : 12.0,
 													"hint" : "",
 													"id" : "obj-164",
-													"items" : [ "Off", ",", 1, "Mix In 19", ",", 2, "Mix In 20", ",", 3, "Analog 1", ",", 4, "Analog 2", ",", 5, "Analog 3", ",", 6, "Analog 4", ",", 7, "Analog 5", ",", 8, "Analog 6", ",", 9, "Analog 7", ",", 10, "Analog 8", ",", 11, "ADAT 1", ",", 12, "ADAT 2", ",", 13, "ADAT 3", ",", 14, "ADAT 4", ",", 15, "ADAT 5", ",", 16, "ADAT 6", ",", 17, "ADAT 7", ",", 18, "ADAT 8", ",", 19, "S/PDIF 1", ",", 20, "S/PDIF 2" ],
+													"items" : [ "Off", ",", 1, "Output 1", ",", 2, "Output 2" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -9356,7 +9366,7 @@
 													"fontsize" : 12.0,
 													"hint" : "",
 													"id" : "obj-165",
-													"items" : [ "Off", ",", 1, "Mix In 19", ",", 2, "Mix In 20", ",", 3, "Analog 1", ",", 4, "Analog 2", ",", 5, "Analog 3", ",", 6, "Analog 4", ",", 7, "Analog 5", ",", 8, "Analog 6", ",", 9, "Analog 7", ",", 10, "Analog 8", ",", 11, "ADAT 1", ",", 12, "ADAT 2", ",", 13, "ADAT 3", ",", 14, "ADAT 4", ",", 15, "ADAT 5", ",", 16, "ADAT 6", ",", 17, "ADAT 7", ",", 18, "ADAT 8", ",", 19, "S/PDIF 1", ",", 20, "S/PDIF 2" ],
+													"items" : [ "Off", ",", 1, "Output 1", ",", 2, "Output 2" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -9386,7 +9396,7 @@
 													"fontsize" : 12.0,
 													"hint" : "",
 													"id" : "obj-166",
-													"items" : [ "Off", ",", 1, "Mix In 19", ",", 2, "Mix In 20", ",", 3, "Analog 1", ",", 4, "Analog 2", ",", 5, "Analog 3", ",", 6, "Analog 4", ",", 7, "Analog 5", ",", 8, "Analog 6", ",", 9, "Analog 7", ",", 10, "Analog 8", ",", 11, "ADAT 1", ",", 12, "ADAT 2", ",", 13, "ADAT 3", ",", 14, "ADAT 4", ",", 15, "ADAT 5", ",", 16, "ADAT 6", ",", 17, "ADAT 7", ",", 18, "ADAT 8", ",", 19, "S/PDIF 1", ",", 20, "S/PDIF 2" ],
+													"items" : [ "Off", ",", 1, "Output 1", ",", 2, "Output 2" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -9416,7 +9426,7 @@
 													"fontsize" : 12.0,
 													"hint" : "",
 													"id" : "obj-167",
-													"items" : [ "Off", ",", 1, "Mix In 19", ",", 2, "Mix In 20", ",", 3, "Analog 1", ",", 4, "Analog 2", ",", 5, "Analog 3", ",", 6, "Analog 4", ",", 7, "Analog 5", ",", 8, "Analog 6", ",", 9, "Analog 7", ",", 10, "Analog 8", ",", 11, "ADAT 1", ",", 12, "ADAT 2", ",", 13, "ADAT 3", ",", 14, "ADAT 4", ",", 15, "ADAT 5", ",", 16, "ADAT 6", ",", 17, "ADAT 7", ",", 18, "ADAT 8", ",", 19, "S/PDIF 1", ",", 20, "S/PDIF 2" ],
+													"items" : [ "Off", ",", 1, "Output 1", ",", 2, "Output 2" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -9446,7 +9456,7 @@
 													"fontsize" : 12.0,
 													"hint" : "",
 													"id" : "obj-168",
-													"items" : [ "Off", ",", 1, "Mix In 19", ",", 2, "Mix In 20", ",", 3, "Analog 1", ",", 4, "Analog 2", ",", 5, "Analog 3", ",", 6, "Analog 4", ",", 7, "Analog 5", ",", 8, "Analog 6", ",", 9, "Analog 7", ",", 10, "Analog 8", ",", 11, "ADAT 1", ",", 12, "ADAT 2", ",", 13, "ADAT 3", ",", 14, "ADAT 4", ",", 15, "ADAT 5", ",", 16, "ADAT 6", ",", 17, "ADAT 7", ",", 18, "ADAT 8", ",", 19, "S/PDIF 1", ",", 20, "S/PDIF 2" ],
+													"items" : [ "Off", ",", 1, "Output 1", ",", 2, "Output 2" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -9476,7 +9486,7 @@
 													"fontsize" : 12.0,
 													"hint" : "",
 													"id" : "obj-169",
-													"items" : [ "Off", ",", 1, "Mix In 19", ",", 2, "Mix In 20", ",", 3, "Analog 1", ",", 4, "Analog 2", ",", 5, "Analog 3", ",", 6, "Analog 4", ",", 7, "Analog 5", ",", 8, "Analog 6", ",", 9, "Analog 7", ",", 10, "Analog 8", ",", 11, "ADAT 1", ",", 12, "ADAT 2", ",", 13, "ADAT 3", ",", 14, "ADAT 4", ",", 15, "ADAT 5", ",", 16, "ADAT 6", ",", 17, "ADAT 7", ",", 18, "ADAT 8", ",", 19, "S/PDIF 1", ",", 20, "S/PDIF 2" ],
+													"items" : [ "Off", ",", 1, "Output 1", ",", 2, "Output 2" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -9506,7 +9516,7 @@
 													"fontsize" : 12.0,
 													"hint" : "",
 													"id" : "obj-170",
-													"items" : [ "Off", ",", 1, "Mix In 19", ",", 2, "Mix In 20", ",", 3, "Analog 1", ",", 4, "Analog 2", ",", 5, "Analog 3", ",", 6, "Analog 4", ",", 7, "Analog 5", ",", 8, "Analog 6", ",", 9, "Analog 7", ",", 10, "Analog 8", ",", 11, "ADAT 1", ",", 12, "ADAT 2", ",", 13, "ADAT 3", ",", 14, "ADAT 4", ",", 15, "ADAT 5", ",", 16, "ADAT 6", ",", 17, "ADAT 7", ",", 18, "ADAT 8", ",", 19, "S/PDIF 1", ",", 20, "S/PDIF 2" ],
+													"items" : [ "Off", ",", 1, "Output 1", ",", 2, "Output 2" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -9536,7 +9546,7 @@
 													"fontsize" : 12.0,
 													"hint" : "",
 													"id" : "obj-171",
-													"items" : [ "Off", ",", 1, "Mix In 19", ",", 2, "Mix In 20", ",", 3, "Analog 1", ",", 4, "Analog 2", ",", 5, "Analog 3", ",", 6, "Analog 4", ",", 7, "Analog 5", ",", 8, "Analog 6", ",", 9, "Analog 7", ",", 10, "Analog 8", ",", 11, "ADAT 1", ",", 12, "ADAT 2", ",", 13, "ADAT 3", ",", 14, "ADAT 4", ",", 15, "ADAT 5", ",", 16, "ADAT 6", ",", 17, "ADAT 7", ",", 18, "ADAT 8", ",", 19, "S/PDIF 1", ",", 20, "S/PDIF 2" ],
+													"items" : [ "Off", ",", 1, "Output 1", ",", 2, "Output 2" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -9566,7 +9576,7 @@
 													"fontsize" : 12.0,
 													"hint" : "",
 													"id" : "obj-172",
-													"items" : [ "Off", ",", 1, "Mix In 19", ",", 2, "Mix In 20", ",", 3, "Analog 1", ",", 4, "Analog 2", ",", 5, "Analog 3", ",", 6, "Analog 4", ",", 7, "Analog 5", ",", 8, "Analog 6", ",", 9, "Analog 7", ",", 10, "Analog 8", ",", 11, "ADAT 1", ",", 12, "ADAT 2", ",", 13, "ADAT 3", ",", 14, "ADAT 4", ",", 15, "ADAT 5", ",", 16, "ADAT 6", ",", 17, "ADAT 7", ",", 18, "ADAT 8", ",", 19, "S/PDIF 1", ",", 20, "S/PDIF 2" ],
+													"items" : [ "Off", ",", 1, "Output 1", ",", 2, "Output 2" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -9596,7 +9606,7 @@
 													"fontsize" : 12.0,
 													"hint" : "",
 													"id" : "obj-173",
-													"items" : [ "Off", ",", 1, "Mix In 19", ",", 2, "Mix In 20", ",", 3, "Analog 1", ",", 4, "Analog 2", ",", 5, "Analog 3", ",", 6, "Analog 4", ",", 7, "Analog 5", ",", 8, "Analog 6", ",", 9, "Analog 7", ",", 10, "Analog 8", ",", 11, "ADAT 1", ",", 12, "ADAT 2", ",", 13, "ADAT 3", ",", 14, "ADAT 4", ",", 15, "ADAT 5", ",", 16, "ADAT 6", ",", 17, "ADAT 7", ",", 18, "ADAT 8", ",", 19, "S/PDIF 1", ",", 20, "S/PDIF 2" ],
+													"items" : [ "Off", ",", 1, "Output 1", ",", 2, "Output 2" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -9626,7 +9636,7 @@
 													"fontsize" : 12.0,
 													"hint" : "",
 													"id" : "obj-174",
-													"items" : [ "Off", ",", 1, "Mix In 19", ",", 2, "Mix In 20", ",", 3, "Analog 1", ",", 4, "Analog 2", ",", 5, "Analog 3", ",", 6, "Analog 4", ",", 7, "Analog 5", ",", 8, "Analog 6", ",", 9, "Analog 7", ",", 10, "Analog 8", ",", 11, "ADAT 1", ",", 12, "ADAT 2", ",", 13, "ADAT 3", ",", 14, "ADAT 4", ",", 15, "ADAT 5", ",", 16, "ADAT 6", ",", 17, "ADAT 7", ",", 18, "ADAT 8", ",", 19, "S/PDIF 1", ",", 20, "S/PDIF 2" ],
+													"items" : [ "Off", ",", 1, "Output 1", ",", 2, "Output 2" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -9656,7 +9666,7 @@
 													"fontsize" : 12.0,
 													"hint" : "",
 													"id" : "obj-175",
-													"items" : [ "Off", ",", 1, "Mix In 19", ",", 2, "Mix In 20", ",", 3, "Analog 1", ",", 4, "Analog 2", ",", 5, "Analog 3", ",", 6, "Analog 4", ",", 7, "Analog 5", ",", 8, "Analog 6", ",", 9, "Analog 7", ",", 10, "Analog 8", ",", 11, "ADAT 1", ",", 12, "ADAT 2", ",", 13, "ADAT 3", ",", 14, "ADAT 4", ",", 15, "ADAT 5", ",", 16, "ADAT 6", ",", 17, "ADAT 7", ",", 18, "ADAT 8", ",", 19, "S/PDIF 1", ",", 20, "S/PDIF 2" ],
+													"items" : [ "Off", ",", 1, "Output 1", ",", 2, "Output 2" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -9686,7 +9696,7 @@
 													"fontsize" : 12.0,
 													"hint" : "",
 													"id" : "obj-176",
-													"items" : [ "Off", ",", 1, "Mix In 19", ",", 2, "Mix In 20", ",", 3, "Analog 1", ",", 4, "Analog 2", ",", 5, "Analog 3", ",", 6, "Analog 4", ",", 7, "Analog 5", ",", 8, "Analog 6", ",", 9, "Analog 7", ",", 10, "Analog 8", ",", 11, "ADAT 1", ",", 12, "ADAT 2", ",", 13, "ADAT 3", ",", 14, "ADAT 4", ",", 15, "ADAT 5", ",", 16, "ADAT 6", ",", 17, "ADAT 7", ",", 18, "ADAT 8", ",", 19, "S/PDIF 1", ",", 20, "S/PDIF 2" ],
+													"items" : [ "Off", ",", 1, "Output 1", ",", 2, "Output 2" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -9716,7 +9726,7 @@
 													"fontsize" : 12.0,
 													"hint" : "",
 													"id" : "obj-177",
-													"items" : [ "Off", ",", 1, "Mix In 19", ",", 2, "Mix In 20", ",", 3, "Analog 1", ",", 4, "Analog 2", ",", 5, "Analog 3", ",", 6, "Analog 4", ",", 7, "Analog 5", ",", 8, "Analog 6", ",", 9, "Analog 7", ",", 10, "Analog 8", ",", 11, "ADAT 1", ",", 12, "ADAT 2", ",", 13, "ADAT 3", ",", 14, "ADAT 4", ",", 15, "ADAT 5", ",", 16, "ADAT 6", ",", 17, "ADAT 7", ",", 18, "ADAT 8", ",", 19, "S/PDIF 1", ",", 20, "S/PDIF 2" ],
+													"items" : [ "Off", ",", 1, "Output 1", ",", 2, "Output 2" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -9746,7 +9756,7 @@
 													"fontsize" : 12.0,
 													"hint" : "",
 													"id" : "obj-178",
-													"items" : [ "Off", ",", 1, "Mix In 19", ",", 2, "Mix In 20", ",", 3, "Analog 1", ",", 4, "Analog 2", ",", 5, "Analog 3", ",", 6, "Analog 4", ",", 7, "Analog 5", ",", 8, "Analog 6", ",", 9, "Analog 7", ",", 10, "Analog 8", ",", 11, "ADAT 1", ",", 12, "ADAT 2", ",", 13, "ADAT 3", ",", 14, "ADAT 4", ",", 15, "ADAT 5", ",", 16, "ADAT 6", ",", 17, "ADAT 7", ",", 18, "ADAT 8", ",", 19, "S/PDIF 1", ",", 20, "S/PDIF 2" ],
+													"items" : [ "Off", ",", 1, "Output 1", ",", 2, "Output 2" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -10223,7 +10233,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 6,
-															"revision" : 0,
+															"revision" : 2,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -11141,7 +11151,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 6,
-															"revision" : 0,
+															"revision" : 2,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -12346,7 +12356,7 @@
 													"fontsize" : 12.0,
 													"hint" : "",
 													"id" : "obj-93",
-													"items" : [ "Off", ",", 1, "Mic Inst 1", ",", 2, "Mic Inst 2", ",", 3, "Analog 1", ",", 4, "Analog 2", ",", 5, "Analog 3", ",", 6, "Analog 4", ",", 7, "Analog 5", ",", 8, "Analog 6", ",", 9, "ADAT 1", ",", 10, "ADAT 2", ",", 11, "ADAT 3", ",", 12, "ADAT 4", ",", 13, "ADAT 5", ",", 14, "ADAT 6", ",", 15, "ADAT 7", ",", 16, "ADAT 8", ",", 17, "S/PDIF 1", ",", 18, "S/PDIF 2" ],
+													"items" : [ "Off", ",", 1, "Input 1" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -12376,7 +12386,7 @@
 													"fontsize" : 12.0,
 													"hint" : "",
 													"id" : "obj-94",
-													"items" : [ "Off", ",", 1, "Mic Inst 1", ",", 2, "Mic Inst 2", ",", 3, "Analog 1", ",", 4, "Analog 2", ",", 5, "Analog 3", ",", 6, "Analog 4", ",", 7, "Analog 5", ",", 8, "Analog 6", ",", 9, "ADAT 1", ",", 10, "ADAT 2", ",", 11, "ADAT 3", ",", 12, "ADAT 4", ",", 13, "ADAT 5", ",", 14, "ADAT 6", ",", 15, "ADAT 7", ",", 16, "ADAT 8", ",", 17, "S/PDIF 1", ",", 18, "S/PDIF 2" ],
+													"items" : [ "Off", ",", 1, "Input 1" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -12406,7 +12416,7 @@
 													"fontsize" : 12.0,
 													"hint" : "",
 													"id" : "obj-95",
-													"items" : [ "Off", ",", 1, "Mic Inst 1", ",", 2, "Mic Inst 2", ",", 3, "Analog 1", ",", 4, "Analog 2", ",", 5, "Analog 3", ",", 6, "Analog 4", ",", 7, "Analog 5", ",", 8, "Analog 6", ",", 9, "ADAT 1", ",", 10, "ADAT 2", ",", 11, "ADAT 3", ",", 12, "ADAT 4", ",", 13, "ADAT 5", ",", 14, "ADAT 6", ",", 15, "ADAT 7", ",", 16, "ADAT 8", ",", 17, "S/PDIF 1", ",", 18, "S/PDIF 2" ],
+													"items" : [ "Off", ",", 1, "Input 1" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -12436,7 +12446,7 @@
 													"fontsize" : 12.0,
 													"hint" : "",
 													"id" : "obj-96",
-													"items" : [ "Off", ",", 1, "Mic Inst 1", ",", 2, "Mic Inst 2", ",", 3, "Analog 1", ",", 4, "Analog 2", ",", 5, "Analog 3", ",", 6, "Analog 4", ",", 7, "Analog 5", ",", 8, "Analog 6", ",", 9, "ADAT 1", ",", 10, "ADAT 2", ",", 11, "ADAT 3", ",", 12, "ADAT 4", ",", 13, "ADAT 5", ",", 14, "ADAT 6", ",", 15, "ADAT 7", ",", 16, "ADAT 8", ",", 17, "S/PDIF 1", ",", 18, "S/PDIF 2" ],
+													"items" : [ "Off", ",", 1, "Input 1" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -12466,7 +12476,7 @@
 													"fontsize" : 12.0,
 													"hint" : "",
 													"id" : "obj-97",
-													"items" : [ "Off", ",", 1, "Mic Inst 1", ",", 2, "Mic Inst 2", ",", 3, "Analog 1", ",", 4, "Analog 2", ",", 5, "Analog 3", ",", 6, "Analog 4", ",", 7, "Analog 5", ",", 8, "Analog 6", ",", 9, "ADAT 1", ",", 10, "ADAT 2", ",", 11, "ADAT 3", ",", 12, "ADAT 4", ",", 13, "ADAT 5", ",", 14, "ADAT 6", ",", 15, "ADAT 7", ",", 16, "ADAT 8", ",", 17, "S/PDIF 1", ",", 18, "S/PDIF 2" ],
+													"items" : [ "Off", ",", 1, "Input 1" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -12496,7 +12506,7 @@
 													"fontsize" : 12.0,
 													"hint" : "",
 													"id" : "obj-98",
-													"items" : [ "Off", ",", 1, "Mic Inst 1", ",", 2, "Mic Inst 2", ",", 3, "Analog 1", ",", 4, "Analog 2", ",", 5, "Analog 3", ",", 6, "Analog 4", ",", 7, "Analog 5", ",", 8, "Analog 6", ",", 9, "ADAT 1", ",", 10, "ADAT 2", ",", 11, "ADAT 3", ",", 12, "ADAT 4", ",", 13, "ADAT 5", ",", 14, "ADAT 6", ",", 15, "ADAT 7", ",", 16, "ADAT 8", ",", 17, "S/PDIF 1", ",", 18, "S/PDIF 2" ],
+													"items" : [ "Off", ",", 1, "Input 1" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -12526,7 +12536,7 @@
 													"fontsize" : 12.0,
 													"hint" : "",
 													"id" : "obj-99",
-													"items" : [ "Off", ",", 1, "Mic Inst 1", ",", 2, "Mic Inst 2", ",", 3, "Analog 1", ",", 4, "Analog 2", ",", 5, "Analog 3", ",", 6, "Analog 4", ",", 7, "Analog 5", ",", 8, "Analog 6", ",", 9, "ADAT 1", ",", 10, "ADAT 2", ",", 11, "ADAT 3", ",", 12, "ADAT 4", ",", 13, "ADAT 5", ",", 14, "ADAT 6", ",", 15, "ADAT 7", ",", 16, "ADAT 8", ",", 17, "S/PDIF 1", ",", 18, "S/PDIF 2" ],
+													"items" : [ "Off", ",", 1, "Input 1" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -12556,7 +12566,7 @@
 													"fontsize" : 12.0,
 													"hint" : "",
 													"id" : "obj-100",
-													"items" : [ "Off", ",", 1, "Mic Inst 1", ",", 2, "Mic Inst 2", ",", 3, "Analog 1", ",", 4, "Analog 2", ",", 5, "Analog 3", ",", 6, "Analog 4", ",", 7, "Analog 5", ",", 8, "Analog 6", ",", 9, "ADAT 1", ",", 10, "ADAT 2", ",", 11, "ADAT 3", ",", 12, "ADAT 4", ",", 13, "ADAT 5", ",", 14, "ADAT 6", ",", 15, "ADAT 7", ",", 16, "ADAT 8", ",", 17, "S/PDIF 1", ",", 18, "S/PDIF 2" ],
+													"items" : [ "Off", ",", 1, "Input 1" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -12586,7 +12596,7 @@
 													"fontsize" : 12.0,
 													"hint" : "",
 													"id" : "obj-101",
-													"items" : [ "Off", ",", 1, "Mic Inst 1", ",", 2, "Mic Inst 2", ",", 3, "Analog 1", ",", 4, "Analog 2", ",", 5, "Analog 3", ",", 6, "Analog 4", ",", 7, "Analog 5", ",", 8, "Analog 6", ",", 9, "ADAT 1", ",", 10, "ADAT 2", ",", 11, "ADAT 3", ",", 12, "ADAT 4", ",", 13, "ADAT 5", ",", 14, "ADAT 6", ",", 15, "ADAT 7", ",", 16, "ADAT 8", ",", 17, "S/PDIF 1", ",", 18, "S/PDIF 2" ],
+													"items" : [ "Off", ",", 1, "Input 1" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -12616,7 +12626,7 @@
 													"fontsize" : 12.0,
 													"hint" : "",
 													"id" : "obj-102",
-													"items" : [ "Off", ",", 1, "Mic Inst 1", ",", 2, "Mic Inst 2", ",", 3, "Analog 1", ",", 4, "Analog 2", ",", 5, "Analog 3", ",", 6, "Analog 4", ",", 7, "Analog 5", ",", 8, "Analog 6", ",", 9, "ADAT 1", ",", 10, "ADAT 2", ",", 11, "ADAT 3", ",", 12, "ADAT 4", ",", 13, "ADAT 5", ",", 14, "ADAT 6", ",", 15, "ADAT 7", ",", 16, "ADAT 8", ",", 17, "S/PDIF 1", ",", 18, "S/PDIF 2" ],
+													"items" : [ "Off", ",", 1, "Input 1" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -12646,7 +12656,7 @@
 													"fontsize" : 12.0,
 													"hint" : "",
 													"id" : "obj-103",
-													"items" : [ "Off", ",", 1, "Mic Inst 1", ",", 2, "Mic Inst 2", ",", 3, "Analog 1", ",", 4, "Analog 2", ",", 5, "Analog 3", ",", 6, "Analog 4", ",", 7, "Analog 5", ",", 8, "Analog 6", ",", 9, "ADAT 1", ",", 10, "ADAT 2", ",", 11, "ADAT 3", ",", 12, "ADAT 4", ",", 13, "ADAT 5", ",", 14, "ADAT 6", ",", 15, "ADAT 7", ",", 16, "ADAT 8", ",", 17, "S/PDIF 1", ",", 18, "S/PDIF 2" ],
+													"items" : [ "Off", ",", 1, "Input 1" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -12676,7 +12686,7 @@
 													"fontsize" : 12.0,
 													"hint" : "",
 													"id" : "obj-104",
-													"items" : [ "Off", ",", 1, "Mic Inst 1", ",", 2, "Mic Inst 2", ",", 3, "Analog 1", ",", 4, "Analog 2", ",", 5, "Analog 3", ",", 6, "Analog 4", ",", 7, "Analog 5", ",", 8, "Analog 6", ",", 9, "ADAT 1", ",", 10, "ADAT 2", ",", 11, "ADAT 3", ",", 12, "ADAT 4", ",", 13, "ADAT 5", ",", 14, "ADAT 6", ",", 15, "ADAT 7", ",", 16, "ADAT 8", ",", 17, "S/PDIF 1", ",", 18, "S/PDIF 2" ],
+													"items" : [ "Off", ",", 1, "Input 1" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -12706,7 +12716,7 @@
 													"fontsize" : 12.0,
 													"hint" : "",
 													"id" : "obj-105",
-													"items" : [ "Off", ",", 1, "Mic Inst 1", ",", 2, "Mic Inst 2", ",", 3, "Analog 1", ",", 4, "Analog 2", ",", 5, "Analog 3", ",", 6, "Analog 4", ",", 7, "Analog 5", ",", 8, "Analog 6", ",", 9, "ADAT 1", ",", 10, "ADAT 2", ",", 11, "ADAT 3", ",", 12, "ADAT 4", ",", 13, "ADAT 5", ",", 14, "ADAT 6", ",", 15, "ADAT 7", ",", 16, "ADAT 8", ",", 17, "S/PDIF 1", ",", 18, "S/PDIF 2" ],
+													"items" : [ "Off", ",", 1, "Input 1" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -12736,7 +12746,7 @@
 													"fontsize" : 12.0,
 													"hint" : "",
 													"id" : "obj-106",
-													"items" : [ "Off", ",", 1, "Mic Inst 1", ",", 2, "Mic Inst 2", ",", 3, "Analog 1", ",", 4, "Analog 2", ",", 5, "Analog 3", ",", 6, "Analog 4", ",", 7, "Analog 5", ",", 8, "Analog 6", ",", 9, "ADAT 1", ",", 10, "ADAT 2", ",", 11, "ADAT 3", ",", 12, "ADAT 4", ",", 13, "ADAT 5", ",", 14, "ADAT 6", ",", 15, "ADAT 7", ",", 16, "ADAT 8", ",", 17, "S/PDIF 1", ",", 18, "S/PDIF 2" ],
+													"items" : [ "Off", ",", 1, "Input 1" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -12766,7 +12776,7 @@
 													"fontsize" : 12.0,
 													"hint" : "",
 													"id" : "obj-107",
-													"items" : [ "Off", ",", 1, "Mic Inst 1", ",", 2, "Mic Inst 2", ",", 3, "Analog 1", ",", 4, "Analog 2", ",", 5, "Analog 3", ",", 6, "Analog 4", ",", 7, "Analog 5", ",", 8, "Analog 6", ",", 9, "ADAT 1", ",", 10, "ADAT 2", ",", 11, "ADAT 3", ",", 12, "ADAT 4", ",", 13, "ADAT 5", ",", 14, "ADAT 6", ",", 15, "ADAT 7", ",", 16, "ADAT 8", ",", 17, "S/PDIF 1", ",", 18, "S/PDIF 2" ],
+													"items" : [ "Off", ",", 1, "Input 1" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -12796,7 +12806,7 @@
 													"fontsize" : 12.0,
 													"hint" : "",
 													"id" : "obj-108",
-													"items" : [ "Off", ",", 1, "Mic Inst 1", ",", 2, "Mic Inst 2", ",", 3, "Analog 1", ",", 4, "Analog 2", ",", 5, "Analog 3", ",", 6, "Analog 4", ",", 7, "Analog 5", ",", 8, "Analog 6", ",", 9, "ADAT 1", ",", 10, "ADAT 2", ",", 11, "ADAT 3", ",", 12, "ADAT 4", ",", 13, "ADAT 5", ",", 14, "ADAT 6", ",", 15, "ADAT 7", ",", 16, "ADAT 8", ",", 17, "S/PDIF 1", ",", 18, "S/PDIF 2" ],
+													"items" : [ "Off", ",", 1, "Input 1" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -14428,7 +14438,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 0,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -14830,7 +14840,7 @@
 									"fontsize" : 14.0,
 									"hint" : "",
 									"id" : "obj-80",
-									"items" : [ "Off", ",", 1, "Mix In 19", ",", 2, "Mix In 20", ",", 3, "Analog 1", ",", 4, "Analog 2", ",", 5, "Analog 3", ",", 6, "Analog 4", ",", 7, "Analog 5", ",", 8, "Analog 6", ",", 9, "Analog 7", ",", 10, "Analog 8", ",", 11, "ADAT 1", ",", 12, "ADAT 2", ",", 13, "ADAT 3", ",", 14, "ADAT 4", ",", 15, "ADAT 5", ",", 16, "ADAT 6", ",", 17, "ADAT 7", ",", 18, "ADAT 8", ",", 19, "S/PDIF 1", ",", 20, "S/PDIF 2" ],
+									"items" : [ "Off", ",", 1, "Output 1", ",", 2, "Output 2" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -14891,7 +14901,7 @@
 									"fontsize" : 14.0,
 									"hint" : "",
 									"id" : "obj-77",
-									"items" : [ "Off", ",", 1, "Mic Inst 1", ",", 2, "Mic Inst 2", ",", 3, "Analog 1", ",", 4, "Analog 2", ",", 5, "Analog 3", ",", 6, "Analog 4", ",", 7, "Analog 5", ",", 8, "Analog 6", ",", 9, "ADAT 1", ",", 10, "ADAT 2", ",", 11, "ADAT 3", ",", 12, "ADAT 4", ",", 13, "ADAT 5", ",", 14, "ADAT 6", ",", 15, "ADAT 7", ",", 16, "ADAT 8", ",", 17, "S/PDIF 1", ",", 18, "S/PDIF 2" ],
+									"items" : [ "Off", ",", 1, "Input 1" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -14952,7 +14962,7 @@
 									"fontsize" : 14.0,
 									"hint" : "",
 									"id" : "obj-69",
-									"items" : [ "Off", ",", 1, "Mix In 19", ",", 2, "Mix In 20", ",", 3, "Analog 1", ",", 4, "Analog 2", ",", 5, "Analog 3", ",", 6, "Analog 4", ",", 7, "Analog 5", ",", 8, "Analog 6", ",", 9, "Analog 7", ",", 10, "Analog 8", ",", 11, "ADAT 1", ",", 12, "ADAT 2", ",", 13, "ADAT 3", ",", 14, "ADAT 4", ",", 15, "ADAT 5", ",", 16, "ADAT 6", ",", 17, "ADAT 7", ",", 18, "ADAT 8", ",", 19, "S/PDIF 1", ",", 20, "S/PDIF 2" ],
+									"items" : [ "Off", ",", 1, "Output 1", ",", 2, "Output 2" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -14995,7 +15005,7 @@
 									"fontsize" : 14.0,
 									"hint" : "",
 									"id" : "obj-71",
-									"items" : [ "Off", ",", 1, "Mic Inst 1", ",", 2, "Mic Inst 2", ",", 3, "Analog 1", ",", 4, "Analog 2", ",", 5, "Analog 3", ",", 6, "Analog 4", ",", 7, "Analog 5", ",", 8, "Analog 6", ",", 9, "ADAT 1", ",", 10, "ADAT 2", ",", 11, "ADAT 3", ",", 12, "ADAT 4", ",", 13, "ADAT 5", ",", 14, "ADAT 6", ",", 15, "ADAT 7", ",", 16, "ADAT 8", ",", 17, "S/PDIF 1", ",", 18, "S/PDIF 2" ],
+									"items" : [ "Off", ",", 1, "Input 1" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -15023,7 +15033,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 0,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -15259,7 +15269,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 0,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -15543,7 +15553,7 @@
 									"fontsize" : 14.0,
 									"hint" : "",
 									"id" : "obj-3",
-									"items" : [ "None", ",", "DELL P2415Q", ",", "MacBook Pro Speakers", ",", "Hongshuo’s AirPods Pro", ",", "Soundflower (2ch)", ",", "Soundflower (64ch)", ",", "Steam Streaming Microphone", ",", "Steam Streaming Speakers", ",", "UltraLite-mk4", ",", "ZoomAudioDevice" ],
+									"items" : [ "None", ",", "DELL P2415Q", ",", "External Headphones", ",", "MacBook Pro Speakers", ",", "Hongshuo’s AirPods Pro", ",", "Microsoft Teams Audio", ",", "Soundflower (2ch)", ",", "Soundflower (64ch)", ",", "Steam Streaming Microphone", ",", "Steam Streaming Speakers", ",", "UltraLite-mk4", ",", "ZoomAudioDevice" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -15583,7 +15593,7 @@
 									"fontsize" : 14.0,
 									"hint" : "",
 									"id" : "obj-12",
-									"items" : [ "None", ",", "FhsIMax Microphone", ",", "MacBook Pro Microphone", ",", "Hongshuo’s AirPods Pro", ",", "Soundflower (2ch)", ",", "Soundflower (64ch)", ",", "Steam Streaming Microphone", ",", "Steam Streaming Speakers", ",", "UltraLite-mk4", ",", "ZoomAudioDevice" ],
+									"items" : [ "None", ",", "FhsIMax Microphone", ",", "External Microphone", ",", "MacBook Pro Microphone", ",", "Hongshuo’s AirPods Pro", ",", "Microsoft Teams Audio", ",", "Soundflower (2ch)", ",", "Soundflower (64ch)", ",", "Steam Streaming Microphone", ",", "Steam Streaming Speakers", ",", "UltraLite-mk4", ",", "ZoomAudioDevice" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -15611,7 +15621,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 6,
-											"revision" : 0,
+											"revision" : 2,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -15833,7 +15843,7 @@
 									"fontsize" : 14.0,
 									"hint" : "",
 									"id" : "obj-41",
-									"items" : [ 44100, ",", 48000, ",", 88200, ",", 96000, ",", 176400, ",", 192000 ],
+									"items" : [ 44100, ",", 48000, ",", 88200, ",", 96000 ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -16235,7 +16245,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 0,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -17602,14 +17612,6 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "fluid.bufloudness~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fluid.bufnoveltyslice~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
 				"name" : "fluid.bufpitch~.mxo",
 				"type" : "iLaX"
 			}
@@ -17646,14 +17648,6 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "fluid.noveltyslice~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "fluid.onsetslice~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
 				"name" : "interfacecolor.js",
 				"bootpath" : "~/Desktop/Development/PRiSM-MusicGestureRecognition/source/PRiSM_MGR/code",
 				"patcherrelativepath" : "../code",
@@ -17683,13 +17677,6 @@
 			}
 , 			{
 				"name" : "p_featureExtraction_bufPitch.maxpat",
-				"bootpath" : "~/Desktop/Development/PRiSM-MusicGestureRecognition/source/PRiSM_MGR/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "p_featureExtraction_mix.maxpat",
 				"bootpath" : "~/Desktop/Development/PRiSM-MusicGestureRecognition/source/PRiSM_MGR/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
