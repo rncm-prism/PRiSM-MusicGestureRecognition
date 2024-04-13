@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 0,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -407,13 +407,13 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 6,
-							"revision" : 0,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 446.0, 519.0, 228.0, 170.0 ],
+						"rect" : [ 446.0, 519.0, 221.0, 166.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -924,7 +924,8 @@
 											"parameter_longname" : "live.dial[2]",
 											"parameter_mmax" : 10000.0,
 											"parameter_mmin" : 50.0,
-											"parameter_shortname" : "Timmer",
+											"parameter_modmode" : 0,
+											"parameter_shortname" : "Timer",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 2
 										}
@@ -1044,6 +1045,7 @@
 											"parameter_longname" : "live.dial[1]",
 											"parameter_mmax" : 0.0,
 											"parameter_mmin" : -60.0,
+											"parameter_modmode" : 0,
 											"parameter_shortname" : "On threshold",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 4
@@ -1225,6 +1227,7 @@
 											"parameter_initial_enable" : 1,
 											"parameter_longname" : "live.numbox[2]",
 											"parameter_mmax" : 100.0,
+											"parameter_modmode" : 0,
 											"parameter_shortname" : "live.numbox",
 											"parameter_type" : 0,
 											"parameter_unitstyle" : 5
@@ -1854,6 +1857,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_longname" : "live.text[12]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -1902,6 +1906,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_longname" : "live.text[11]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -1937,6 +1942,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_longname" : "live.text[23]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
