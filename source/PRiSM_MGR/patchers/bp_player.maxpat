@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 0,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -124,7 +124,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 66.0, 204.5, 209.0, 19.0 ],
 					"style" : "helpfile_label",
-					"text" : "Total: 2 incorrect: 2 accuracy: 0.00",
+					"text" : "Total: 0 incorrect: 0 accuracy: 0",
 					"textcolor" : [ 0.807843137254902, 0.898039215686275, 0.909803921568627, 1.0 ]
 				}
 
@@ -132,7 +132,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-34",
-					"items" : [ "c3", ",", "c4", ",", "c6", ",", "c1", ",", "c2" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -195,7 +195,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 51.0, 161.0, 163.0, 19.0 ],
 					"style" : "helpfile_label",
-					"text" : "Average Accuracy: 0.60",
+					"text" : "Average Accuracy: 0",
 					"textcolor" : [ 0.807843137254902, 0.898039215686275, 0.909803921568627, 1.0 ]
 				}
 
@@ -282,7 +282,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-23",
-					"index" : 4,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -324,9 +324,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 75.0, 510.5, 325.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 67.0, 59.0, 33.0 ],
+					"presentation_rect" : [ 15.0, 67.0, 257.5, 33.0 ],
 					"style" : "helpfile_label",
-					"text" : "c2",
 					"textcolor" : [ 0.807843137254902, 0.898039215686275, 0.909803921568627, 1.0 ]
 				}
 
@@ -423,7 +422,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-21",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -542,6 +541,7 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_longname" : "live.text[7]",
 							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -570,7 +570,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-13",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -658,7 +658,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-3",
-					"items" : [ "SamChords-c1-1.wav", ",", "SamChords-c1-2.wav", ",", "SamChords-c1-3.wav", ",", "SamChords-c1-4.wav", ",", "SamChords-c1-5.wav", ",", "SamChords-c2-1.wav", ",", "SamChords-c2-2.wav", ",", "SamChords-c2-3.wav", ",", "SamChords-c2-4.wav", ",", "SamChords-c2-5.wav", ",", "SamChords-c2-6.wav", ",", "SamChords-c3-1.wav", ",", "SamChords-c3-2.wav", ",", "SamChords-c3-3.wav", ",", "SamChords-c3-4.wav", ",", "SamChords-c3-5.wav", ",", "SamChords-c3-6.wav", ",", "SamChords-c4-1.wav", ",", "SamChords-c4-2.wav", ",", "SamChords-c4-3.wav", ",", "SamChords-c4-4.wav", ",", "SamChords-c4-5.wav", ",", "SamChords-c4-6.wav", ",", "SamChords-c4-7.wav", ",", "SamChords-c5-1.wav", ",", "SamChords-c5-2.wav", ",", "SamChords-c5-3.wav", ",", "SamChords-c5-4.wav", ",", "SamChords-c5-5.wav", ",", "SamChords-c6-1.wav", ",", "SamChords-c6-2.wav", ",", "SamChords-c6-3.wav", ",", "SamChords-c6-4.wav", ",", "SamChords-c6-5.wav", ",", "SamChords-c6-6.wav", ",", "SamChords-c6-7.wav", ",", "SamChords-c6-8.wav", ",", "SamChords-c7-1.wav", ",", "SamChords-c7-2.wav", ",", "SamChords-c7-3.wav", ",", "SamChords-c7-4.wav", ",", "SamChords-c7-5.wav", ",", "SamChords-c7-6.wav", ",", "SamChords-c7-7.wav", ",", "SamChords-c7-8.wav", ",", "SamChords-c7-9.wav" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -674,7 +674,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-2",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -687,11 +687,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-1",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "clear" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 80.0, 44.0, 30.0, 30.0 ]
 				}
 
@@ -1132,7 +1132,30 @@
 				}
 
 			}
- ]
+ ],
+		"parameters" : 		{
+			"obj-17" : [ "live.text[7]", "live.text", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "bp_validation.maxpat",
+				"bootpath" : "~/Desktop/Development/MusicGestureRecognition/PRiSM_MGR_dev/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }
