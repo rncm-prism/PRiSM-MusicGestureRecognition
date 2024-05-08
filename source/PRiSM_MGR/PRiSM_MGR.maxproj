@@ -2,7 +2,7 @@
 	"name" : "PRiSM_MGR",
 	"version" : 1,
 	"creationdate" : 3767087226,
-	"modificationdate" : 3789713666,
+	"modificationdate" : 3798023977,
 	"viewrect" : [ 38.0, 237.0, 415.0, 841.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
@@ -70,17 +70,17 @@
 				"local" : 1
 			}
 ,
-			"p_featureExtraction_mix.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
 			"p_audioPlayer.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
 			"p_model.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"p_featureExtraction_mix.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -96,6 +96,11 @@
 			}
 ,
 			"p_PredictionInput.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"MGR_Performers.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -204,22 +209,32 @@
 				"local" : 1
 			}
 ,
+			"fluid.dataset~.mxo" : 			{
+				"kind" : "object",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Desktop/Development/MusicGestureRecognition/PRiSM_MGR_dev/patchers",
+					"projectrelativepath" : "../../../MusicGestureRecognition/PRiSM_MGR_dev/patchers"
+				}
+
+			}
+,
+			"fluid.labelset~.mxo" : 			{
+				"kind" : "object",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Desktop/Development/MusicGestureRecognition/PRiSM_MGR_dev/patchers",
+					"projectrelativepath" : "../../../MusicGestureRecognition/PRiSM_MGR_dev/patchers"
+				}
+
+			}
+,
 			"fluid.bufloudness~.mxo" : 			{
 				"kind" : "object",
 				"local" : 1
 			}
 ,
 			"fluid.bufnoveltyslice~.mxo" : 			{
-				"kind" : "object",
-				"local" : 1
-			}
-,
-			"fluid.noveltyslice~.mxo" : 			{
-				"kind" : "object",
-				"local" : 1
-			}
-,
-			"fluid.onsetslice~.mxo" : 			{
 				"kind" : "object",
 				"local" : 1
 			}
@@ -234,24 +249,14 @@
 				"local" : 1
 			}
 ,
-			"fluid.dataset~.mxo" : 			{
+			"fluid.noveltyslice~.mxo" : 			{
 				"kind" : "object",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "~/Desktop/Development/PRiSM-MusicGestureRecognition/source/PRiSM_MGR/patchers",
-					"projectrelativepath" : "./patchers"
-				}
-
+				"local" : 1
 			}
 ,
-			"fluid.labelset~.mxo" : 			{
+			"fluid.onsetslice~.mxo" : 			{
 				"kind" : "object",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "~/Desktop/Development/PRiSM-MusicGestureRecognition/source/PRiSM_MGR/patchers",
-					"projectrelativepath" : "./patchers"
-				}
-
+				"local" : 1
 			}
 ,
 			"fluid.bufstft~.mxo" : 			{
@@ -271,12 +276,7 @@
 ,
 			"fluid.mlpclassifier~.mxo" : 			{
 				"kind" : "object",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "~/Desktop/Development/PRiSM-MusicGestureRecognition/source/PRiSM_MGR/patchers",
-					"projectrelativepath" : "./patchers"
-				}
-
+				"local" : 1
 			}
 
 		}
