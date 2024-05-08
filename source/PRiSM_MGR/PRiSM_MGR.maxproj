@@ -2,7 +2,7 @@
 	"name" : "PRiSM_MGR",
 	"version" : 1,
 	"creationdate" : 3767087226,
-	"modificationdate" : 3798037277,
+	"modificationdate" : 3798045446,
 	"viewrect" : [ 38.0, 237.0, 415.0, 841.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
@@ -12,8 +12,7 @@
 		"patchers" : 		{
 			"MGR_Main.maxpat" : 			{
 				"kind" : "patcher",
-				"local" : 1,
-				"toplevel" : 1
+				"local" : 1
 			}
 ,
 			"bp_DataAugmentation.maxpat" : 			{
@@ -103,7 +102,8 @@
 ,
 			"MGR_Performers.maxpat" : 			{
 				"kind" : "patcher",
-				"local" : 1
+				"local" : 1,
+				"toplevel" : 1
 			}
 
 		}

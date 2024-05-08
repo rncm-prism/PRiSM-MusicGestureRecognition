@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 66.0, 147.0, 920.0, 819.0 ],
+		"rect" : [ 855.0, 195.0, 920.0, 819.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -1229,8 +1229,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 418.0, 997.5, 220.0, 23.0 ],
-					"text" : "folder C74:/help @types WAVE AIFF"
+					"patching_rect" : [ 418.0, 997.5, 171.0, 23.0 ],
+					"text" : "folder ./ @types WAVE AIFF"
 				}
 
 			}
