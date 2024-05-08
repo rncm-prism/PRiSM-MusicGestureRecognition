@@ -108,7 +108,8 @@ Click the `Setting` button to open the [setting window](media/Setting.png) where
 
 Parameter Name             |  Description   | Default Value  | Range        | OSC address
 -------------              | -------------  | -------------  | -------------|-------------  |
-On Threshold               |  Amplitude gate level, used to trigger listening and prediction.                                                          | -39dB | -60dB - 0dB | /OnThreshold       |
+On Threshold               |  Amplitude gate level, used to trigger listening.                                                          | -39dB | -60dB - 0dB | /OnThreshold       |
+Off Threshold              |  Amplitude gate level, used to ending listening and trigger prediction.                                     | -59dB | -60dB - 0dB | /OffThreshold       |
 Accuracy Threshold         | Filtering the predict result below the threshold.                                                                         | 0.    | 0. - 1.     | /AccuracyThreshold |
 Timer                      |  The system reports after listening. If the timer is shorter than the default, it refreshes the buffer and forces a prediction. If longer than the default, it is disabled.         | Default is the longest duration in the training files but no more than 10 seconds.                                  | 50ms - 10000ms | /Timmer            |
 Spectum Components         |  The number of frequency components in the spectrogram.                                                                   | f0, f1    | f0 - f7      | 🚫 |
