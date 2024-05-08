@@ -2,7 +2,7 @@
 	"name" : "PRiSM_MGR",
 	"version" : 1,
 	"creationdate" : 3767087226,
-	"modificationdate" : 3798023977,
+	"modificationdate" : 3798037277,
 	"viewrect" : [ 38.0, 237.0, 415.0, 841.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
@@ -12,7 +12,8 @@
 		"patchers" : 		{
 			"MGR_Main.maxpat" : 			{
 				"kind" : "patcher",
-				"local" : 1
+				"local" : 1,
+				"toplevel" : 1
 			}
 ,
 			"bp_DataAugmentation.maxpat" : 			{
@@ -249,6 +250,16 @@
 				"local" : 1
 			}
 ,
+			"fluid.mlpclassifier~.mxo" : 			{
+				"kind" : "object",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Desktop/Development/MusicGestureRecognition/PRiSM_MGR_dev/code",
+					"projectrelativepath" : "../../../MusicGestureRecognition/PRiSM_MGR_dev/code"
+				}
+
+			}
+,
 			"fluid.noveltyslice~.mxo" : 			{
 				"kind" : "object",
 				"local" : 1
@@ -270,11 +281,6 @@
 			}
 ,
 			"fluid.libmanipulation_HS.mxo" : 			{
-				"kind" : "object",
-				"local" : 1
-			}
-,
-			"fluid.mlpclassifier~.mxo" : 			{
 				"kind" : "object",
 				"local" : 1
 			}
