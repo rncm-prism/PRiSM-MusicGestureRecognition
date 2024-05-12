@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 49.0, 281.0, 1709.0, 743.0 ],
+		"rect" : [ 49.0, 281.0, 924.0, 157.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -4120,7 +4120,7 @@
 
 					}
 ,
-					"text" : "-31.42",
+					"text" : "-28.75",
 					"textcolor" : [ 0.807843, 0.898039, 0.909804, 1.0 ]
 				}
 
@@ -7025,7 +7025,7 @@
 					"patching_rect" : [ 120.0, 1164.0, 312.0, 36.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 483.0, 15.520141500000022, 222.0, 36.0 ],
-					"text" : "__",
+					"text" : "listening....",
 					"textcolor" : [ 0.011764705882353, 1.0, 0.133333333333333, 0.901960784313726 ]
 				}
 
@@ -7671,7 +7671,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 636.0, 559.0, 233.0, 143.0 ],
+						"rect" : [ 167.0, 358.0, 231.0, 142.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -7700,6 +7700,18 @@
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-45",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 1060.333333333333258, 556.0, 113.0, 22.0 ],
+									"text" : "prepend /Prediction"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-40",
 									"maxclass" : "newobj",
@@ -7898,11 +7910,11 @@
 								"box" : 								{
 									"id" : "obj-39",
 									"maxclass" : "newobj",
-									"numinlets" : 6,
-									"numoutlets" : 6,
-									"outlettype" : [ "", "", "", "", "", "" ],
-									"patching_rect" : [ 687.0, 84.0, 407.0, 22.0 ],
-									"text" : "route /AccuracyThreshold /OnThreshold /OffThreshold /Timmer MaxLength"
+									"numinlets" : 7,
+									"numoutlets" : 7,
+									"outlettype" : [ "", "", "", "", "", "", "" ],
+									"patching_rect" : [ 687.0, 84.0, 467.0, 22.0 ],
+									"text" : "route /AccuracyThreshold /OnThreshold /OffThreshold /Timmer MaxLength /Prediction"
 								}
 
 							}
@@ -8475,7 +8487,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 32.0, 563.0, 30.0, 30.0 ]
+									"patching_rect" : [ 32.0, 636.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -9078,7 +9090,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-22", 0 ],
-									"midpoints" : [ 1006.899999999999977, 119.0, 886.5, 119.0 ],
+									"midpoints" : [ 995.166666666666742, 119.0, 886.5, 119.0 ],
 									"order" : 0,
 									"source" : [ "obj-39", 4 ]
 								}
@@ -9087,7 +9099,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-36", 0 ],
-									"midpoints" : [ 1006.899999999999977, 213.0, 824.5, 213.0 ],
+									"midpoints" : [ 995.166666666666742, 213.0, 824.5, 213.0 ],
 									"order" : 1,
 									"source" : [ "obj-39", 4 ]
 								}
@@ -9103,8 +9115,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-45", 0 ],
+									"source" : [ "obj-39", 5 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-47", 0 ],
-									"midpoints" : [ 774.100000000000023, 174.0, 663.100000000000023, 174.0 ],
+									"midpoints" : [ 771.166666666666629, 174.0, 663.100000000000023, 174.0 ],
 									"source" : [ "obj-39", 1 ]
 								}
 
@@ -9112,7 +9131,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-48", 0 ],
-									"midpoints" : [ 929.299999999999955, 167.75, 906.166666666666742, 167.75 ],
+									"midpoints" : [ 920.5, 167.75, 906.166666666666742, 167.75 ],
 									"source" : [ "obj-39", 3 ]
 								}
 
@@ -9120,7 +9139,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-55", 0 ],
-									"midpoints" : [ 851.700000000000045, 181.5, 742.833333333333371, 181.5 ],
+									"midpoints" : [ 845.833333333333371, 181.5, 742.833333333333371, 181.5 ],
 									"source" : [ "obj-39", 2 ]
 								}
 
@@ -9175,6 +9194,14 @@
 								"patchline" : 								{
 									"destination" : [ "obj-46", 0 ],
 									"source" : [ "obj-44", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-1", 0 ],
+									"midpoints" : [ 1069.833333333333258, 606.5, 41.5, 606.5 ],
+									"source" : [ "obj-45", 0 ]
 								}
 
 							}
@@ -9463,6 +9490,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
+					"midpoints" : [ 923.5, 275.0, 1022.5, 275.0 ],
 					"source" : [ "obj-11", 1 ]
 				}
 
@@ -10176,7 +10204,7 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "MG_AudioPlayer.js",
-				"bootpath" : "~/Desktop/Development/MusicGestureRecognition/PRiSM_MGR_dev/code",
+				"bootpath" : "~/Desktop/Development/PRiSM-MusicGestureRecognition/source/PRiSM_MGR/code",
 				"patcherrelativepath" : "../code",
 				"type" : "TEXT",
 				"implicit" : 1
@@ -10227,14 +10255,14 @@
 			}
 , 			{
 				"name" : "p_audioPlayer.maxpat",
-				"bootpath" : "~/Desktop/Development/MusicGestureRecognition/PRiSM_MGR_dev/patchers",
+				"bootpath" : "~/Desktop/Development/PRiSM-MusicGestureRecognition/source/PRiSM_MGR/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "p_featureExtraction_bufPitch.maxpat",
-				"bootpath" : "~/Desktop/Development/MusicGestureRecognition/PRiSM_MGR_dev/patchers",
+				"bootpath" : "~/Desktop/Development/PRiSM-MusicGestureRecognition/source/PRiSM_MGR/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
