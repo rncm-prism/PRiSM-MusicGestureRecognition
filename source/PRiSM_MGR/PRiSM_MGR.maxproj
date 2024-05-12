@@ -2,8 +2,8 @@
 	"name" : "PRiSM_MGR",
 	"version" : 1,
 	"creationdate" : 3767087226,
-	"modificationdate" : 3798046024,
-	"viewrect" : [ 38.0, 237.0, 415.0, 841.0 ],
+	"modificationdate" : 3798370842,
+	"viewrect" : [ 38.0, 183.0, 415.0, 841.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -254,8 +254,8 @@
 				"kind" : "object",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Desktop/Development/MusicGestureRecognition/PRiSM_MGR_dev/code",
-					"projectrelativepath" : "../../../MusicGestureRecognition/PRiSM_MGR_dev/code"
+					"bootpath" : "~/Desktop/Development/PRiSM-MusicGestureRecognition/source/PRiSM_MGR/code",
+					"projectrelativepath" : "./code"
 				}
 
 			}
