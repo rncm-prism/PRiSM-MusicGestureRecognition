@@ -1,8 +1,8 @@
-# PRiSM Music Gesture Recognition
+# PRiSM Audio Gesture Recognition
 
 [![PRiSM](https://img.shields.io/badge/PRiSM-RNCM-blue.svg)](https://www.rncm.ac.uk/research/research-centres-rncm/prism/)
 
-PRiSM Music Gesture Recognition is a software tool for creating musical gesture datasets and real-time recognition of musical gestures based on audio input. It utilizes machine learning techniques to classify and interpret musical gestures, enabling applications in interactive music performance, composition, and more.
+PRiSM Audio Gesture Recognition is a software tool for creating audio gesture datasets and real-time recognition of audio gestures based on audio input. It utilizes machine learning techniques to classify audio gestures, enabling applications in interactive music performance, composition, and more.
 
 ![Screenshot of the main interface](media/MainInterface.png)
 
