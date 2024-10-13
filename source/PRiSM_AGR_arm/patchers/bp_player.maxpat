@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 6,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 293.0, 443.0, 1338.0, 764.0 ],
+		"rect" : [ 293.0, 258.0, 1338.0, 764.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,18 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-46",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 672.0, 569.0, 48.0, 22.0 ],
+					"text" : "del 200"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-54",
 					"maxclass" : "message",
@@ -109,7 +121,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 672.0, 515.0, 24.0, 24.0 ]
+					"patching_rect" : [ 672.0, 535.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -562,7 +574,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 454.0, 303.0, 24.0, 24.0 ]
+					"patching_rect" : [ 454.0, 293.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -824,7 +836,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-37", 0 ],
-					"midpoints" : [ 463.5, 332.5, 681.5, 332.5 ],
+					"midpoints" : [ 463.5, 329.5, 681.5, 329.5 ],
 					"order" : 0,
 					"source" : [ "obj-15", 0 ]
 				}
@@ -848,7 +860,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-17", 0 ],
-					"midpoints" : [ 518.5, 420.0, 624.5, 420.0, 624.5, 248.0, 463.5, 248.0 ],
+					"midpoints" : [ 518.5, 451.0, 624.5, 451.0, 624.5, 248.0, 463.5, 248.0 ],
 					"source" : [ "obj-19", 0 ]
 				}
 
@@ -960,8 +972,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-27", 0 ],
-					"midpoints" : [ 681.5, 550.0, 494.5, 550.0, 494.5, 57.0, 250.5, 57.0 ],
+					"destination" : [ "obj-46", 0 ],
 					"source" : [ "obj-32", 0 ]
 				}
 
@@ -995,7 +1006,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-32", 0 ],
-					"midpoints" : [ 824.5, 617.0, 781.5, 617.0, 781.5, 510.0, 681.5, 510.0 ],
+					"midpoints" : [ 824.5, 617.0, 781.5, 617.0, 781.5, 527.0, 681.5, 527.0 ],
 					"order" : 1,
 					"source" : [ "obj-35", 0 ]
 				}
@@ -1019,7 +1030,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
-					"midpoints" : [ 681.5, 471.0, 865.899999999999977, 471.0 ],
+					"midpoints" : [ 681.5, 438.0, 865.899999999999977, 438.0 ],
 					"source" : [ "obj-37", 0 ]
 				}
 
@@ -1088,6 +1099,14 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-27", 0 ],
+					"midpoints" : [ 681.5, 607.0, 494.5, 607.0, 494.5, 57.0, 250.5, 57.0 ],
+					"source" : [ "obj-46", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
 					"midpoints" : [ 137.5, 243.0, 279.5, 243.0 ],
 					"source" : [ "obj-5", 0 ]
@@ -1149,7 +1168,7 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "bp_validation.maxpat",
-				"bootpath" : "~/Desktop/Development/MusicGestureRecognition/PRiSM_MGR_dev/patchers",
+				"bootpath" : "~/Desktop/Development/PRiSM-MusicGestureRecognition/source/PRiSM_AGR_arm/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
